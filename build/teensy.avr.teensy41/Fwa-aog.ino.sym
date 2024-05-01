@@ -1,0 +1,2387 @@
+
+C:\Users\miguel\AppData\Local\Temp\arduino\sketches\51D5104C5FBFF1053D37101ACB8FA615/Fwa-aog.ino.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+60000000 l    d  .text.headers	00000000 .text.headers
+60001400 l    d  .text.code	00000000 .text.code
+60003738 l    d  .text.progmem	00000000 .text.progmem
+00000000 l    d  .text.itcm	00000000 .text.itcm
+000402a0 l    d  .fini	00000000 .fini
+000402a4 l    d  .ARM.exidx	00000000 .ARM.exidx
+20000000 l    d  .data	00000000 .data
+200096c0 l    d  .bss	00000000 .bss
+20200000 l    d  .bss.dma	00000000 .bss.dma
+70000000 l    d  .bss.extram	00000000 .bss.extram
+60059b48 l    d  .text.csf	00000000 .text.csf
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    df *ABS*	00000000 bootdata.c
+00000000 l    df *ABS*	00000000 startup.c
+60001400 l     F .text.code	00000016 memory_copy
+60001418 l     F .text.code	00000010 memory_clear
+60001428 l     F .text.code	000001fc ResetHandler2
+00000000 l    df *ABS*	00000000 LittleFS.cpp
+00010d7c l     F .text.itcm	000000d8 flexspi2_ip_read(unsigned long, unsigned long, void*, unsigned long)
+00010ed4 l     F .text.itcm	00000068 blockIsBlank(lfs_config*, unsigned long, void*, bool) [clone .part.0]
+00010f50 l     F .text.itcm	00000016 LittleFS::exists(char const*) [clone .part.0]
+00010fcc l     F .text.itcm	00000050 cb_usedBlocks(void*, unsigned long)
+2000b0bc l     O .bss	00000004 cb_usedBlocks(void*, unsigned long)::maxBlock
+2000b0c0 l     O .bss	00000004 cb_usedBlocks(void*, unsigned long)::totBlock
+6000f7f4 l     O .text.progmem	00000007 LittleFS_RAM::getMediaName()::ext_pn_name
+6000f7fc l     O .text.progmem	00000007 LittleFS_RAM::getMediaName()::dma_pn_name
+6000f804 l     O .text.progmem	00000007 LittleFS_RAM::getMediaName()::ram_pn_name
+6000f80c l     O .text.progmem	00000008 LittleFS_Program::getMediaName()::prog_pn_name
+6000f814 l     O .text.progmem	000004ac known_chips
+00000000 l    df *ABS*	00000000 QNEthernet.cpp
+000164e0 l     F .text.itcm	0000006c qindesign::network::attachLoopToYield()::{lambda(EventResponder&)#1}::_FUN(EventResponder&)
+000167e8 l     F .text.itcm	000000b0 _GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network13EthernetClassEE13nifty_counterE
+2000ad18 l     O .bss	00000008 INADDR_NONE
+2000b014 l     O .bss	00000004 qindesign::network::EthernetInit
+2000c529 l     O .bss	00000001 qindesign::network::loopAttached
+2000b044 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b07c l     O .bss	00000004 qindesign::security::randomDeviceInit
+20008d48 l     O .data	00000020 qindesign::network::ethLoop
+00000000 l    df *ABS*	00000000 QNMDNS.cpp
+00016a64 l     F .text.itcm	0000002c _GLOBAL__sub_I__ZN10StaticInitIN9qindesign7network9MDNSClassEE13nifty_counterE
+2000c528 l     O .bss	00000001 qindesign::network::netifAdded
+2000b054 l     O .bss	00000004 qindesign::network::MDNSInit
+00000000 l    df *ABS*	00000000 RandomDevice.cpp
+0002278c l     F .text.itcm	0000004c _GLOBAL__sub_I__ZN10StaticInitIN9qindesign8security12RandomDeviceEE13nifty_counterE
+2000b090 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 entropy.c
+2000c408 l     O .bss	00000004 s_entropySizeBytes
+2020a840 l     O .bss.dma	00000040 s_entropy
+00000000 l    df *ABS*	00000000 WireIMXRT.cpp
+00022f0c l     F .text.itcm	00000044 _GLOBAL__sub_I__ZN7TwoWire5beginEv
+00000000 l    df *ABS*	00000000 CrashReport.cpp
+00000000 l    df *ABS*	00000000 analog.c
+2000c52e l     O .bss	00000001 calibrating
+00000000 l    df *ABS*	00000000 tempmon.c
+2000c40c l     O .bss	00000004 s_hotCount
+2000c410 l     O .bss	00000004 s_hotTemp
+2000c414 l     O .bss	00000004 s_hot_ROOM
+2000c420 l     O .bss	00000004 s_roomC_hotC
+00000000 l    df *ABS*	00000000 usb.c
+0002c8d8 l     F .text.itcm	00000088 schedule_transfer
+0002c960 l     F .text.itcm	00000036 run_callbacks
+0002c998 l     F .text.itcm	00000098 endpoint0_transmit.constprop.0
+2000c17c l     O .bss	00000008 endpoint0_buffer
+2000c184 l     O .bss	00000004 endpoint0_notify_mask
+2000a1f0 l     O .bss	00000008 endpoint0_setupdata
+2000c188 l     O .bss	00000004 endpointN_notify_mask
+2000c2f8 l     O .bss	00000008 reply_buffer
+2000c540 l     O .bss	00000001 sof_usage
+2000c54a l     O .bss	00000001 usb_reboot_timer
+00000000 l    df *ABS*	00000000 crti.o
+00000000 l    df *ABS*	00000000 crtn.o
+00000000 l    df *ABS*	00000000 crtstuff.c
+00000020 l     F .text.itcm	00000000 register_tm_clones
+00000044 l     F .text.itcm	00000000 frame_dummy
+2000c2d8 l     O .bss	00000000 object.0
+600036c8 l     O .text.code	00000000 __frame_dummy_init_array_entry
+00000000 l    df *ABS*	00000000 Fwa-aog.ino.cpp
+000013bc l     F .text.itcm	0000000a std::_Function_handler<void (void*, AsyncClient*, signed char), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*, unsigned long)#4}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, signed char&&)
+000013d0 l     F .text.itcm	00000002 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#8}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+000013d4 l     F .text.itcm	00000002 std::_Function_handler<void (AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)#11}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&, unsigned char*&&, unsigned int&&, unsigned int&&, unsigned int&&)
+000013d8 l     F .text.itcm	00000010 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#13}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+000014b0 l     F .text.itcm	00000018 std::_Function_handler<void (AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool), configureWebServer()::{lambda(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)#9}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&, String&&, unsigned int&&, unsigned char*&&, unsigned int&&, bool&&)
+00001a84 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001a9c l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001ab4 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*)#3}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001acc l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, signed char), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*, unsigned long)#4}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001ae4 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, unsigned int, unsigned long), AsyncHTTPRequest::_onConnect(AsyncClient*)::{lambda(void*, AsyncClient*, unsigned int, unsigned long)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001afc l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, void*, unsigned int), AsyncHTTPRequest::_onConnect(AsyncClient*)::{lambda(void*, AsyncClient*, void*, unsigned int)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001b14 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001b2c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001b44 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#3}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001b5c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#4}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001b74 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#5}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001b8c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#6}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001ba4 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#7}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001bbc l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#8}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001bd4 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool), configureWebServer()::{lambda(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)#9}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001bec l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)#10}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001c04 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)#11}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001c1c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#12}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001c34 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#13}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001c4c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#14}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001c64 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncUDPPacket&), setup::{lambda(AsyncUDPPacket)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001c7c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncUDPPacket&), setup::{lambda(AsyncUDPPacket)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00001cc4 l     F .text.itcm	00000036 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#1}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+000020b8 l     F .text.itcm	00000048 AsyncClient::connect(IPAddress, unsigned short) [clone .part.0] [clone .isra.0]
+00002178 l     F .text.itcm	00000020 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#14}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000021b8 l     F .text.itcm	00000020 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#6}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000021d8 l     F .text.itcm	00000020 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#5}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000021f8 l     F .text.itcm	00000020 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#4}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00002318 l     F .text.itcm	00000098 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#2}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+000023b0 l     F .text.itcm	00000020 Print::write(char const*) [clone .isra.0]
+00002900 l     F .text.itcm	00000040 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#4}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_invoke(std::_Any_data const&, unsigned char*&&, unsigned int&&, unsigned int&&)
+00002b28 l     F .text.itcm	00000040 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#5}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_invoke(std::_Any_data const&, unsigned char*&&, unsigned int&&, unsigned int&&)
+00002b68 l     F .text.itcm	00000040 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#6}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_invoke(std::_Any_data const&, unsigned char*&&, unsigned int&&, unsigned int&&)
+00002ba8 l     F .text.itcm	00000040 std::_Function_handler<unsigned int (unsigned char*, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*)#14}::operator()(AsyncWebServerRequest*) const::{lambda(unsigned char*, unsigned int, unsigned int)#1}>::_M_invoke(std::_Any_data const&, unsigned char*&&, unsigned int&&, unsigned int&&)
+00002c90 l     F .text.itcm	0000009c std::_Function_handler<void (void*, AsyncClient*), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*)#2}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&)
+00002dd8 l     F .text.itcm	0000006c std::_Function_handler<void (AsyncUDPPacket&), setup::{lambda(AsyncUDPPacket)#2}>::_M_invoke(std::_Any_data const&, AsyncUDPPacket&)
+000030a4 l     F .text.itcm	0000014e ArduinoJson::V702PB2::detail::operator|(ArduinoJson::V702PB2::detail::MemberProxy<ArduinoJson::V702PB2::JsonDocument&, char const*> const&, char const*) [clone .isra.0]
+000034e8 l     F .text.itcm	00000148 JsonDB::resetFile(char const*) [clone .isra.0]
+00003768 l     F .text.itcm	000000ec ArduinoJson::V702PB2::detail::enable_if<ArduinoJson::V702PB2::detail::IsString<char*, void>::value, void>::type ArduinoJson::V702PB2::convertToJson<char*>(char* const&, ArduinoJson::V702PB2::JsonVariant) [clone .isra.0]
+0000449c l     F .text.itcm	000000c8 AsyncServer::_accept(tcp_pcb*, signed char) [clone .part.0]
+00005b04 l     F .text.itcm	00000006 std::_Function_handler<void (void*, AsyncClient*, unsigned int, unsigned long), AsyncHTTPRequest::_onConnect(AsyncClient*)::{lambda(void*, AsyncClient*, unsigned int, unsigned long)#1}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, unsigned int&&, unsigned long&&)
+00006540 l     F .text.itcm	0000000e std::_Function_handler<void (void*, AsyncClient*, void*, unsigned int), AsyncHTTPRequest::_onConnect(AsyncClient*)::{lambda(void*, AsyncClient*, void*, unsigned int)#2}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, void*&&, unsigned int&&)
+00005db4 l     F .text.itcm	00000008 std::_Function_handler<void (void*, AsyncClient*), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*)#1}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&)
+000060a4 l     F .text.itcm	00000008 std::_Function_handler<void (void*, AsyncClient*), AsyncHTTPRequest::_connect()::{lambda(void*, AsyncClient*)#3}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&)
+00006550 l     F .text.itcm	00000284 AsyncHTTPRequest::open(char const*, char const*) [clone .part.0]
+00007ec4 l     F .text.itcm	00000268 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#14}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+0000812c l     F .text.itcm	00000048 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#12}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+00008174 l     F .text.itcm	00000168 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#6}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+000082dc l     F .text.itcm	00000168 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#5}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+00008444 l     F .text.itcm	00000168 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#4}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+000085ac l     F .text.itcm	00000048 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#3}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+60003a44 l     O .text.progmem	0000bdad index_html
+00008b08 l     F .text.itcm	00000050 std::_Function_handler<void (AsyncWebServerRequest*), configureWebServer()::{lambda(AsyncWebServerRequest*)#7}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+0000f6e4 l     F .text.itcm	00000384 std::_Function_handler<void (AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int), configureWebServer()::{lambda(AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)#10}>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&, unsigned char*&&, unsigned int&&, unsigned int&&, unsigned int&&)
+00009cf8 l     F .text.itcm	0000016a ArduinoJson::V702PB2::detail::enable_if<(!ArduinoJson::V702PB2::detail::IsVariant<int>::value)&&(!ArduinoJson::V702PB2::detail::is_array<int>::value), int>::type ArduinoJson::V702PB2::detail::operator|<int>(ArduinoJson::V702PB2::detail::MemberProxy<ArduinoJson::V702PB2::JsonDocument&, char const*> const&, int const&) [clone .isra.0]
+0000ca4c l     F .text.itcm	00000820 ArduinoJson::V702PB2::DeserializationError::Code ArduinoJson::V702PB2::detail::JsonDeserializer<ArduinoJson::V702PB2::detail::Reader<unsigned char*, void> >::parseVariant<ArduinoJson::V702PB2::detail::AllowAllFilter>(ArduinoJson::V702PB2::detail::VariantData&, ArduinoJson::V702PB2::detail::AllowAllFilter, ArduinoJson::V702PB2::DeserializationOption::NestingLimit) [clone .isra.0]
+0000d480 l     F .text.itcm	00000998 ArduinoJson::V702PB2::DeserializationError::Code ArduinoJson::V702PB2::detail::JsonDeserializer<ArduinoJson::V702PB2::detail::Reader<File, void> >::parseVariant<ArduinoJson::V702PB2::detail::AllowAllFilter>(ArduinoJson::V702PB2::detail::VariantData&, ArduinoJson::V702PB2::detail::AllowAllFilter, ArduinoJson::V702PB2::DeserializationOption::NestingLimit) [clone .isra.0]
+0000de18 l     F .text.itcm	00000588 JsonDB::startNext() [clone .part.0]
+0000ef04 l     F .text.itcm	00000044 std::_Function_handler<void (AsyncUDPPacket&), setup::{lambda(AsyncUDPPacket)#1}>::_M_invoke(std::_Any_data const&, AsyncUDPPacket&)
+000106cc l     F .text.itcm	000002b0 _GLOBAL__sub_I_lfs
+2000ad28 l     O .bss	00000004 _connectionCount
+2000ad2c l     O .bss	00000010 SharedEmptyString
+2000b010 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b040 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b078 l     O .bss	00000004 qindesign::security::randomDeviceInit
+60003738 l     O .text.progmem	000000ce logout_html
+60003808 l     O .text.progmem	00000006 AsyncHTTPRequest::_processChunks()::data
+60003810 l     O .text.progmem	00000008 AsyncHTTPRequest::_collectHeaders()::data
+60003818 l     O .text.progmem	00000006 AsyncHTTPRequest::_onData(void*, unsigned int)::data
+60003820 l     O .text.progmem	00000222 reboot_html
+00000000 l    df *ABS*	00000000 SPI.cpp
+00015f48 l     F .text.itcm	00000060 SPIClass::transfer(void const*, void*, unsigned int) [clone .part.0]
+000163c8 l     F .text.itcm	00000048 _GLOBAL__sub_I__ZN8SPIClass5beginEv
+00000000 l    df *ABS*	00000000 QNDNSClient.cpp
+00016438 l     F .text.itcm	00000014 _GLOBAL__sub_I__ZN9qindesign7network9DNSClient12dnsFoundFuncEPKcPK8ip4_addrPv
+2000ad10 l     O .bss	00000008 INADDR_NONE
+00000000 l    df *ABS*	00000000 QNEthernetClient.cpp
+00016898 l     F .text.itcm	00000094 _GLOBAL__sub_I__ZN9qindesign7network14EthernetClientC2Ev
+2000ad20 l     O .bss	00000008 INADDR_NONE
+2000b018 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b048 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b080 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 QNEthernetServer.cpp
+0001692c l     F .text.itcm	00000084 _GLOBAL__sub_I__ZN9qindesign7network14EthernetServerC2Ev
+2000b01c l     O .bss	00000004 qindesign::network::EthernetInit
+2000b04c l     O .bss	00000004 qindesign::network::MDNSInit
+2000b084 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 QNEthernetUDP.cpp
+000169b0 l     F .text.itcm	00000084 _GLOBAL__sub_I__ZN9qindesign7network11EthernetUDP8recvFuncEPvP7udp_pcbP4pbufPK8ip4_addrt
+2000b020 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b050 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b088 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 ConnectionManager.cpp
+00016a90 l     F .text.itcm	00000084 _GLOBAL__sub_I__ZN9qindesign7network8internal17ConnectionManager8instanceEv
+2000b024 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b058 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b08c l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 ACAN_T4.cpp
+00023870 l     F .text.itcm	0000008c ACAN_T4::message_isr() [clone .part.0]
+00023938 l     F .text.itcm	0000003c _GLOBAL__sub_I__ZN17ACANPrimaryFilterC2E10tFrameKind12tFrameFormatPFvRK10CANMessageE
+00000000 l    df *ABS*	00000000 AsyncEventSource_Teensy41.cpp
+00023f2c l     F .text.itcm	0000009c _GLOBAL__sub_I__ZN23AsyncEventSourceMessageC2EPKcj
+2000ad3c l     O .bss	00000010 SharedEmptyString
+2000b028 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b05c l     O .bss	00000004 qindesign::network::MDNSInit
+2000b094 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 AsyncWebHandlers_Teensy41.cpp
+0002466c l     F .text.itcm	0000009c _GLOBAL__sub_I__ZN21AsyncStaticWebHandlerC2EPKcS1_S1_
+2000ad4c l     O .bss	00000010 SharedEmptyString
+2000b02c l     O .bss	00000004 qindesign::network::EthernetInit
+2000b060 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b098 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 AsyncWebRequest_Teensy41.cpp
+00024708 l     F .text.itcm	00000002 std::_Function_handler<void (void*, AsyncClient*, signed char), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, signed char)#4}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, signed char&&)
+0002470c l     F .text.itcm	0000000c std::_Function_handler<void (void*, AsyncClient*, unsigned long), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, unsigned long)#7}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, unsigned long&&)
+00024718 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebHeader* const&), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(AsyncWebHeader*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00024730 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebParameter* const&), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(AsyncWebParameter*)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00024748 l     F .text.itcm	00000016 std::_Function_handler<void (String* const&), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(String*)#3}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00024760 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, signed char), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, signed char)#4}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00024778 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, unsigned int, unsigned long), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, unsigned int, unsigned long)#5}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00024790 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*)#6}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000247a8 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, unsigned long), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, unsigned long)#7}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000247c0 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*, void*, unsigned int), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, void*, unsigned int)#8}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000247d8 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*)#9}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000247f0 l     F .text.itcm	0000001a std::_Function_handler<void (String* const&), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(String*)#3}>::_M_invoke(std::_Any_data const&, String* const&)
+0002480c l     F .text.itcm	00000022 std::_Function_handler<void (AsyncWebParameter* const&), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(AsyncWebParameter*)#2}>::_M_invoke(std::_Any_data const&, AsyncWebParameter* const&)
+00024830 l     F .text.itcm	00000022 std::_Function_handler<void (AsyncWebHeader* const&), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(AsyncWebHeader*)#1}>::_M_invoke(std::_Any_data const&, AsyncWebHeader* const&)
+00024854 l     F .text.itcm	00000030 std::_Function_handler<void (void*, AsyncClient*), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*)#6}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&)
+00024884 l     F .text.itcm	00000032 std::_Function_handler<void (void*, AsyncClient*), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*)#9}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&)
+000248b8 l     F .text.itcm	0000003e std::_Function_handler<void (void*, AsyncClient*, unsigned int, unsigned long), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, unsigned int, unsigned long)#5}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, unsigned int&&, unsigned long&&)
+000266f0 l     F .text.itcm	0000000e std::_Function_handler<void (void*, AsyncClient*, void*, unsigned int), AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)::{lambda(void*, AsyncClient*, void*, unsigned int)#8}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&, void*&&, unsigned int&&)
+000267f4 l     F .text.itcm	0000009c _GLOBAL__sub_I__ZN21AsyncWebServerRequestC2EP14AsyncWebServerP11AsyncClient
+2000ad5c l     O .bss	00000010 SharedEmptyString
+2000b030 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b064 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b09c l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 AsyncWebResponses_Teensy41.cpp
+0002698c l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebHeader* const&), AsyncWebServerResponse::AsyncWebServerResponse()::{lambda(AsyncWebHeader*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000269bc l     F .text.itcm	00000022 std::_Function_handler<void (AsyncWebHeader* const&), AsyncWebServerResponse::AsyncWebServerResponse()::{lambda(AsyncWebHeader*)#1}>::_M_invoke(std::_Any_data const&, AsyncWebHeader* const&)
+00026a18 l     F .text.itcm	00000148 void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<unsigned char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char*, unsigned char*, std::forward_iterator_tag) [clone .isra.0]
+00027a00 l     F .text.itcm	00000448 AsyncAbstractResponse::_fillBufferAndProcessTemplates(unsigned char*, unsigned int) [clone .part.0]
+00027e48 l     F .text.itcm	0000025c AsyncAbstractResponse::_ack(AsyncWebServerRequest*, unsigned int, unsigned long) [clone .part.0]
+00028264 l     F .text.itcm	0000009c _GLOBAL__sub_I__Z6memchrPvij
+2000ad6c l     O .bss	00000010 SharedEmptyString
+2000b034 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b068 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b0a0 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 AsyncWebServer_Teensy41.cpp
+0002830c l     F .text.itcm	0000000c std::_Function_handler<void (AsyncWebHandler* const&), AsyncWebServer::AsyncWebServer(unsigned short)::{lambda(AsyncWebHandler*)#2}>::_M_invoke(std::_Any_data const&, AsyncWebHandler* const&)
+00028508 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebRewrite* const&), AsyncWebServer::AsyncWebServer(unsigned short)::{lambda(AsyncWebRewrite*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00028520 l     F .text.itcm	00000016 std::_Function_handler<void (AsyncWebHandler* const&), AsyncWebServer::AsyncWebServer(unsigned short)::{lambda(AsyncWebHandler*)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00028538 l     F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncClient*), AsyncWebServer::AsyncWebServer(unsigned short)::{lambda(void*, AsyncClient*)#3}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00028550 l     F .text.itcm	00000028 std::_Function_handler<void (void*, AsyncClient*), AsyncWebServer::AsyncWebServer(unsigned short)::{lambda(void*, AsyncClient*)#3}>::_M_invoke(std::_Any_data const&, void*&&, AsyncClient*&&)
+000286c0 l     F .text.itcm	00000058 std::_Function_handler<void (AsyncWebRewrite* const&), AsyncWebServer::AsyncWebServer(unsigned short)::{lambda(AsyncWebRewrite*)#1}>::_M_invoke(std::_Any_data const&, AsyncWebRewrite* const&)
+00028fa8 l     F .text.itcm	0000009c _GLOBAL__sub_I__ZN14AsyncWebServerC2Et
+2000ad7c l     O .bss	00000010 SharedEmptyString
+2000b038 l     O .bss	00000004 qindesign::network::EthernetInit
+2000b06c l     O .bss	00000004 qindesign::network::MDNSInit
+2000b0a4 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 AsyncWebSocket_Teensy41.cpp
+00029044 l     F .text.itcm	0000009c _GLOBAL__sub_I__Z5ltrimPc
+2000ad8c l     O .bss	00000010 SharedEmptyString
+2000b03c l     O .bss	00000004 qindesign::network::EthernetInit
+2000b070 l     O .bss	00000004 qindesign::network::MDNSInit
+2000b0a8 l     O .bss	00000004 qindesign::security::randomDeviceInit
+00000000 l    df *ABS*	00000000 HardwareSerial1.cpp
+0002a310 l     F .text.itcm	00000074 _GLOBAL__sub_I_IRQHandler_Serial1
+2000a9b8 l     O .bss	00000040 rx_buffer1
+2000abb8 l     O .bss	00000040 tx_buffer1
+20002108 l     O .data	00000064 UART6_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial2.cpp
+0002a390 l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial2
+2000a9f8 l     O .bss	00000040 rx_buffer2
+2000abf8 l     O .bss	00000028 tx_buffer2
+20008ba8 l     O .data	00000064 UART4_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial3.cpp
+0002a414 l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial3
+2000aa38 l     O .bss	00000040 rx_buffer3
+2000ac20 l     O .bss	00000028 tx_buffer3
+20008ae0 l     O .data	00000064 UART2_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial4.cpp
+0002a498 l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial4
+2000aa78 l     O .bss	00000040 rx_buffer4
+2000ac48 l     O .bss	00000028 tx_buffer4
+20008b44 l     O .data	00000064 UART3_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial5.cpp
+0002a51c l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial5
+2000aab8 l     O .bss	00000040 rx_buffer5
+2000ac70 l     O .bss	00000028 tx_buffer5
+20008cd4 l     O .data	00000064 UART8_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial6.cpp
+0002a5a0 l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial6
+2000aaf8 l     O .bss	00000040 rx_buffer6
+2000ac98 l     O .bss	00000028 tx_buffer6
+20008a7c l     O .data	00000064 UART1_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial7.cpp
+0002a624 l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial7
+2000ab38 l     O .bss	00000040 rx_buffer7
+2000acc0 l     O .bss	00000028 tx_buffer7
+20008c70 l     O .data	00000064 UART7_Hardware
+00000000 l    df *ABS*	00000000 HardwareSerial8.cpp
+0002a6a8 l     F .text.itcm	00000078 _GLOBAL__sub_I_IRQHandler_Serial8
+2000ab78 l     O .bss	00000040 rx_buffer8
+2000ace8 l     O .bss	00000028 tx_buffer8
+20008c0c l     O .data	00000064 UART5_Hardware
+00000000 l    df *ABS*	00000000 eh_alloc.o
+0002ec90 l     F .text.itcm	00000088 (anonymous namespace)::pool::free(void*) [clone .constprop.0]
+0002ed18 l     F .text.itcm	00000058 (anonymous namespace)::pool::allocate(unsigned int) [clone .constprop.0]
+0002edc0 l     F .text.itcm	00000028 _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
+00000000 l    df *ABS*	00000000 EventResponder.cpp
+00000000 l    df *ABS*	00000000 serialEvent1.cpp
+00000000 l    df *ABS*	00000000 serialEvent2.cpp
+00000000 l    df *ABS*	00000000 serialEvent3.cpp
+00000000 l    df *ABS*	00000000 serialEvent4.cpp
+00000000 l    df *ABS*	00000000 serialEvent5.cpp
+00000000 l    df *ABS*	00000000 serialEvent6.cpp
+00000000 l    df *ABS*	00000000 serialEvent7.cpp
+00000000 l    df *ABS*	00000000 serialEvent8.cpp
+00000000 l    df *ABS*	00000000 usb_desc.c
+2000931c l     O .data	00000012 device_descriptor
+20009334 l     O .data	00000028 microsoft_os_compatible_id_desc
+2000935c l     O .data	00000012 microsoft_os_string_desc
+6000feb8 l     O .text.progmem	0000000a qualifier_descriptor
+00000000 l    df *ABS*	00000000 BNO08x_AOG.cpp
+00000094 l     F .text.itcm	00000070 BNO080::printHeader() [clone .part.0]
+00000104 l     F .text.itcm	00000200 BNO080::printPacket() [clone .part.0]
+00000000 l    df *ABS*	00000000 DriverIbt.cpp
+00000000 l    df *ABS*	00000000 lfs.c
+00011e58 l     F .text.itcm	00000034 lfs_alloc_lookahead
+00011e8c l     F .text.itcm	00000074 lfs_dir_traverse_filter
+00011f00 l     F .text.itcm	0000001e lfs_dir_commit_size
+00011f20 l     F .text.itcm	0000000c lfs_fs_size_count
+00011f2c l     F .text.itcm	0000003c lfs_deinit
+00011f68 l     F .text.itcm	00000146 lfs_bd_read.part.0
+000120b0 l     F .text.itcm	000000c8 lfs_init
+00012178 l     F .text.itcm	000000aa lfs_bd_cmp.constprop.0
+00012224 l     F .text.itcm	0000003a lfs_dir_find_match
+00012260 l     F .text.itcm	00000096 lfs_bd_flush
+000122f8 l     F .text.itcm	000000ac lfs_bd_prog
+000123a4 l     F .text.itcm	0000003e lfs_dir_commitprog
+000123e4 l     F .text.itcm	00000106 lfs_ctz_find.constprop.0
+000124ec l     F .text.itcm	000000ea lfs_dir_commitattr
+000125d8 l     F .text.itcm	0000000c lfs_dir_commit_commit
+000125e4 l     F .text.itcm	00000214 lfs_dir_traverse
+000127f8 l     F .text.itcm	00000062 lfs_fs_parent_match
+0001285c l     F .text.itcm	000000aa lfs_ctz_traverse.part.0
+00012908 l     F .text.itcm	0000020a lfs_dir_commitcrc
+00012b14 l     F .text.itcm	000005a6 lfs_dir_fetchmatch
+000130bc l     F .text.itcm	0000008c lfs_fs_parent
+00013148 l     F .text.itcm	0000007e lfs_fs_pred
+000131c8 l     F .text.itcm	000001a0 lfs_dir_getslice
+00013368 l     F .text.itcm	00000050 lfs_dir_getgstate
+000133b8 l     F .text.itcm	000001a0 lfs_fs_rawtraverse
+00013558 l     F .text.itcm	000000e0 lfs_alloc
+00013638 l     F .text.itcm	00000098 lfs_dir_alloc
+000136d0 l     F .text.itcm	00000190 lfs_dir_find
+00013860 l     F .text.itcm	000000b4 lfs_dir_getinfo
+00013914 l     F .text.itcm	000000b8 lfs_dir_getread.part.0.constprop.0
+000139cc l     F .text.itcm	00000174 lfs_file_relocate
+00013b40 l     F .text.itcm	000000fa lfs_file_flush
+00013c3c l     F .text.itcm	0000046c lfs_file_rawwrite
+000140a8 l     F .text.itcm	00000138 lfs_file_rawread
+000141e0 l     F .text.itcm	000005b8 lfs_dir_compact
+00015094 l     F .text.itcm	00000088 lfs_dir_split
+00014798 l     F .text.itcm	00000400 lfs_dir_commit
+00014b98 l     F .text.itcm	0000003c lfs_dir_drop
+00014bd4 l     F .text.itcm	0000009c lfs_file_rawsync
+00014c70 l     F .text.itcm	00000174 lfs_fs_forceconsistency
+00014de4 l     F .text.itcm	000002b0 lfs_file_rawopencfg
+20004ebc l     O .data	0000000c defaults.0
+00000000 l    df *ABS*	00000000 lfs_util.c
+200062f8 l     O .data	00000040 rtable.0
+00000000 l    df *ABS*	00000000 mdns.c
+00016b14 l     F .text.itcm	0000006c mdns_define_probe_rrs_to_send
+00016ce0 l     F .text.itcm	000000e8 mdns_probe_and_announce
+2000c298 l     O .bss	00000004 mdns_name_result_cb
+2000c536 l     O .bss	00000001 mdns_netif_client_id
+2000c29c l     O .bss	00000004 mdns_pcb
+20003d24 l     O .data	00000013 __FUNCTION__.1
+20003f40 l     O .data	00000017 __FUNCTION__.6
+20008904 l     O .data	00000004 v4group
+00000000 l    df *ABS*	00000000 mdns_domain.c
+00016dc8 l     F .text.itcm	00000100 mdns_readname_loop
+00016ec8 l     F .text.itcm	000000be mdns_compress_domain.part.0
+20005514 l     O .data	00000008 dnssd_protos
+00000000 l    df *ABS*	00000000 mdns_out.c
+00017464 l     F .text.itcm	0000009a mdns_add_question.constprop.0
+00017500 l     F .text.itcm	000000e2 mdns_add_answer.constprop.0
+000175e4 l     F .text.itcm	0000001c mdns_add_any_host_question.constprop.0
+00017600 l     F .text.itcm	0000001e mdns_add_any_service_question.constprop.0
+00017620 l     F .text.itcm	0000005c mdns_add_servicetype_ptr_answer
+0001767c l     F .text.itcm	00000058 mdns_add_a_answer
+000176d4 l     F .text.itcm	00000076 mdns_add_srv_answer
+0001774c l     F .text.itcm	00000060 mdns_add_servicename_ptr_answer
+000177ac l     F .text.itcm	00000064 mdns_add_hostv4_ptr_answer
+00017810 l     F .text.itcm	00000032 mdns_add_query_question_to_outpacket.isra.0
+00017844 l     F .text.itcm	00000070 mdns_add_txt_answer
+00000000 l    df *ABS*	00000000 def.c
+00000000 l    df *ABS*	00000000 dns.c
+00017d48 l     F .text.itcm	000000a8 dns_call_found
+00017df0 l     F .text.itcm	00000190 dns_send.isra.0
+00017f80 l     F .text.itcm	00000120 dns_check_entry
+000180a0 l     F .text.itcm	00000328 dns_recv
+2000c530 l     O .bss	00000001 dns_last_pcb_idx
+2000bce4 l     O .bss	00000010 dns_pcbs
+2000bcf4 l     O .bss	00000030 dns_requests
+2000c531 l     O .bss	00000001 dns_seqno
+2000bd24 l     O .bss	00000008 dns_servers
+2000bd2c l     O .bss	00000450 dns_table
+00000000 l    df *ABS*	00000000 inet_chksum.c
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 acd.c
+20003d38 l     O .data	00000008 __FUNCTION__.1
+00000000 l    df *ABS*	00000000 autoip.c
+00018b88 l     F .text.itcm	0000007c autoip_conflict_callback
+20003c6c l     O .data	0000000c __FUNCTION__.0
+20003d40 l     O .data	0000000d __FUNCTION__.1
+20003e80 l     O .data	00000012 __FUNCTION__.3
+00000000 l    df *ABS*	00000000 dhcp.c
+00018c6c l     F .text.itcm	00000140 dhcp_create_msg
+00018dac l     F .text.itcm	00000084 dhcp_inc_pcb_refcount
+00019518 l     F .text.itcm	00000554 dhcp_recv
+00018e30 l     F .text.itcm	0000010c dhcp_bind
+00018f3c l     F .text.itcm	0000002c dhcp_option_short.part.0
+00018f68 l     F .text.itcm	0000002c dhcp_option.part.0
+00018f94 l     F .text.itcm	0000002c dhcp_option_byte.part.0
+00018fc0 l     F .text.itcm	00000060 dhcp_option_long
+00019020 l     F .text.itcm	00000050 dhcp_dec_pcb_refcount
+00019070 l     F .text.itcm	0000009c dhcp_handle_ack.isra.0
+0001910c l     F .text.itcm	000000a8 dhcp_option_hostname.isra.0
+000191b4 l     F .text.itcm	00000190 dhcp_discover
+00019344 l     F .text.itcm	000001d4 dhcp_select.isra.0
+00019a6c l     F .text.itcm	000001c4 dhcp_reboot.isra.0
+2000bcac l     O .bss	00000004 dhcp_pcb
+2000c52f l     O .bss	00000001 dhcp_pcb_refcount
+2000bcb0 l     O .bss	0000000a dhcp_rx_options_given
+2000bcbc l     O .bss	00000028 dhcp_rx_options_val
+2000c50c l     O .bss	00000004 xid.6
+20003c78 l     O .data	00000016 __FUNCTION__.0
+20003d50 l     O .data	0000000b __FUNCTION__.1
+20003e94 l     O .data	0000000b __FUNCTION__.3
+20003f04 l     O .data	00000010 __FUNCTION__.5
+20004f78 l     O .data	00000004 dhcp_discover_request_options
+00000000 l    df *ABS*	00000000 etharp.c
+0001a310 l     F .text.itcm	000000f8 etharp_raw
+0001a408 l     F .text.itcm	00000164 etharp_find_entry.constprop.0
+0001a56c l     F .text.itcm	000000f4 etharp_output_to_arp_index
+2000b3f4 l     O .bss	000000f0 arp_table
+2000c532 l     O .bss	00000001 etharp_cached_entry
+20003c90 l     O .data	0000000e __FUNCTION__.0
+20003d5c l     O .data	0000000d __FUNCTION__.1
+00000000 l    df *ABS*	00000000 icmp.c
+0001ac18 l     F .text.itcm	000000b4 icmp_send_response
+00000000 l    df *ABS*	00000000 igmp.c
+0001ae18 l     F .text.itcm	000000b0 igmp_lookup_group
+0001aec8 l     F .text.itcm	0000003e igmp_delaying_member
+0001af08 l     F .text.itcm	000000c0 igmp_send
+2000b3ec l     O .bss	00000004 allrouters
+2000b3f0 l     O .bss	00000004 allsystems
+20003ca0 l     O .data	00000016 __FUNCTION__.0
+00000000 l    df *ABS*	00000000 ip4.c
+2000c510 l     O .bss	00000002 ip_id
+20003cb8 l     O .data	00000016 __FUNCTION__.0
+20003d6c l     O .data	0000000a __FUNCTION__.1
+00000000 l    df *ABS*	00000000 ip4_addr.c
+00000000 l    df *ABS*	00000000 ip4_frag.c
+0001b7b4 l     F .text.itcm	0000002c ip_reass_dequeue_datagram.part.0
+0001b7e0 l     F .text.itcm	00000044 ipfrag_free_pbuf_custom
+0001b824 l     F .text.itcm	00000104 ip_reass_free_complete_datagram
+0001b928 l     F .text.itcm	00000074 ip_reass_remove_oldest_datagram
+2000c512 l     O .bss	00000002 ip_reass_pbufcount
+2000c2f0 l     O .bss	00000004 reassdatagrams
+00000000 l    df *ABS*	00000000 mem.c
+00000000 l    df *ABS*	00000000 memp.c
+0001c028 l     F .text.itcm	0000002c do_memp_malloc_pool.part.0
+0001c054 l     F .text.itcm	0000002c do_memp_free_pool.part.0
+2000c2a0 l     O .bss	00000004 memp_tab_FRAG_PBUF
+2000c2a4 l     O .bss	00000004 memp_tab_IGMP_GROUP
+2000c2a8 l     O .bss	00000004 memp_tab_PBUF
+2000c2ac l     O .bss	00000004 memp_tab_PBUF_POOL
+2000c2b0 l     O .bss	00000004 memp_tab_REASSDATA
+2000c2b4 l     O .bss	00000004 memp_tab_SYS_TIMEOUT
+2000c2b8 l     O .bss	00000004 memp_tab_TCP_PCB
+2000c2bc l     O .bss	00000004 memp_tab_TCP_PCB_LISTEN
+2000c2c0 l     O .bss	00000004 memp_tab_TCP_SEG
+2000c2c4 l     O .bss	00000004 memp_tab_UDP_PCB
+00000000 l    df *ABS*	00000000 netif.c
+0001c12c l     F .text.itcm	00000006 netif_null_output_ip4
+0001c134 l     F .text.itcm	00000088 netif_do_set_ipaddr
+2000c190 l     O .bss	00000004 ext_callback
+20003cd0 l     O .data	0000001a __FUNCTION__.0
+20003d78 l     O .data	00000017 __FUNCTION__.1
+20003de0 l     O .data	0000000f __FUNCTION__.11
+20003e34 l     O .data	0000000a __FUNCTION__.15
+20003ea0 l     O .data	00000013 __FUNCTION__.3
+20003f14 l     O .data	00000014 __FUNCTION__.5
+20003f58 l     O .data	00000012 __FUNCTION__.6
+20003f74 l     O .data	0000000f __FUNCTION__.7
+20003f9c l     O .data	0000000d __FUNCTION__.8
+20003fcc l     O .data	00000012 __FUNCTION__.9
+00000000 l    df *ABS*	00000000 pbuf.c
+0001c6bc l     F .text.itcm	0000002c pbuf_ref.part.0
+0001c6e8 l     F .text.itcm	0000002c pbuf_clone.part.0
+00000000 l    df *ABS*	00000000 tcp.c
+0001d014 l     F .text.itcm	00000064 tcp_new_port
+0001d078 l     F .text.itcm	00000070 tcp_close_shutdown_fin
+0001d0e8 l     F .text.itcm	0000002c tcp_free.part.0
+0001d114 l     F .text.itcm	0000002c tcp_next_iss.part.0
+0001d140 l     F .text.itcm	0000002c tcp_eff_send_mss_netif.part.0
+0001e01c l     F .text.itcm	00000040 tcp_accept_null
+0001e210 l     F .text.itcm	000001bc tcp_close_shutdown
+2000c542 l     O .bss	00000001 tcp_timer
+2000c543 l     O .bss	00000001 tcp_timer_ctr
+20009330 l     O .data	00000004 iss.0
+200093f6 l     O .data	00000002 tcp_port
+20003d90 l     O .data	00000009 __FUNCTION__.1
+20003dd4 l     O .data	0000000b __FUNCTION__.10
+20003df0 l     O .data	00000020 __FUNCTION__.11
+20003e10 l     O .data	00000018 __FUNCTION__.12
+20003e28 l     O .data	00000009 __FUNCTION__.14
+20003e40 l     O .data	0000000c __FUNCTION__.15
+20003e4c l     O .data	0000000a __FUNCTION__.17
+20003e58 l     O .data	0000000b __FUNCTION__.2
+20003eb4 l     O .data	00000008 __FUNCTION__.3
+20003ed4 l     O .data	00000009 __FUNCTION__.4
+20003f28 l     O .data	00000009 __FUNCTION__.5
+20003f6c l     O .data	00000008 __FUNCTION__.6
+20003f84 l     O .data	0000000a __FUNCTION__.7
+20003fac l     O .data	0000000c __FUNCTION__.8
+20003fe0 l     O .data	0000000c __FUNCTION__.9
+2000784c l     O .data	0000000d tcp_backoff
+20008030 l     O .data	00000007 tcp_persist_backoff
+00000000 l    df *ABS*	00000000 tcp_in.c
+0001e680 l     F .text.itcm	000000a0 tcp_oos_insert_segment
+0001e720 l     F .text.itcm	0000006c tcp_input_delayed_close
+0001e78c l     F .text.itcm	000000d8 tcp_free_acked_segments.constprop.0
+0001e864 l     F .text.itcm	00000870 tcp_receive
+0001f0d4 l     F .text.itcm	00000168 tcp_parseopt
+2000b3e8 l     O .bss	00000004 ackno
+2000c534 l     O .bss	00000001 flags
+2000c1a4 l     O .bss	00000010 inseg
+2000c516 l     O .bss	00000002 recv_acked
+2000c2f4 l     O .bss	00000004 recv_data
+2000c538 l     O .bss	00000001 recv_flags
+2000c42c l     O .bss	00000004 seqno
+2000c51a l     O .bss	00000002 tcp_optidx
+2000c4a8 l     O .bss	00000004 tcphdr
+2000c51c l     O .bss	00000002 tcphdr_opt1len
+2000c4ac l     O .bss	00000004 tcphdr_opt2
+2000c51e l     O .bss	00000002 tcphdr_optlen
+2000c520 l     O .bss	00000002 tcplen
+20003cec l     O .data	0000000a __FUNCTION__.0
+00000000 l    df *ABS*	00000000 tcp_out.c
+0001fddc l     F .text.itcm	00000094 tcp_pbuf_prealloc
+0001fe70 l     F .text.itcm	000000fc tcp_create_segment
+0001ff6c l     F .text.itcm	0000002c tcp_rexmit_rto_commit.part.0
+0001ff98 l     F .text.itcm	000000a0 tcp_output_alloc_header.constprop.0
+00020038 l     F .text.itcm	00000034 tcp_output_fill_options.constprop.0
+0002006c l     F .text.itcm	0000009c tcp_output_control_segment
+00020108 l     F .text.itcm	000000ac tcp_rst_common.isra.0
+20003cf8 l     O .data	0000000b __FUNCTION__.0
+20003d9c l     O .data	0000000a __FUNCTION__.1
+00000000 l    df *ABS*	00000000 timeouts.c
+000211e8 l     F .text.itcm	00000064 sys_timeout_abs
+0002124c l     F .text.itcm	0000003c lwip_cyclic_timer
+00021288 l     F .text.itcm	00000050 tcpip_tcp_timer
+2000b4f4 l     O .bss	00000004 current_timeout_due_time
+2000c2d4 l     O .bss	00000004 next_timeout
+2000c4b0 l     O .bss	00000004 tcpip_tcp_timer_active
+20003da8 l     O .data	00000013 __FUNCTION__.1
+20003e64 l     O .data	0000000e __FUNCTION__.2
+20003ebc l     O .data	0000000c __FUNCTION__.3
+20003ee0 l     O .data	00000011 __FUNCTION__.4
+00000000 l    df *ABS*	00000000 udp.c
+200093f8 l     O .data	00000002 udp_port
+20003d04 l     O .data	00000010 __FUNCTION__.0
+20003dbc l     O .data	00000008 __FUNCTION__.1
+20003e74 l     O .data	0000000b __FUNCTION__.2
+20003ec8 l     O .data	00000009 __FUNCTION__.3
+20003ef4 l     O .data	0000000f __FUNCTION__.4
+20003f34 l     O .data	0000000c __FUNCTION__.5
+20003f90 l     O .data	00000009 __FUNCTION__.7
+20003fb8 l     O .data	00000012 __FUNCTION__.8
+20003fec l     O .data	0000000a __FUNCTION__.9
+00000000 l    df *ABS*	00000000 lwip_t41.c
+00021be8 l     F .text.itcm	00000028 enet_isr
+00021c10 l     F .text.itcm	00000094 low_level_output
+00021ca4 l     F .text.itcm	000001d0 init_phy.part.0
+00021e74 l     F .text.itcm	00000220 init_netif
+20208a40 l     O .bss.dma	00001e00 s_rxBufs
+20206c40 l     O .bss.dma	00001e00 s_txBufs
+000225fc l     F .text.itcm	00000038 multicast_filter
+2000b4e4 l     O .bss	00000004 collisionGALR.4
+2000b4e8 l     O .bss	00000004 collisionGAUR.3
+2000b4ec l     O .bss	00000004 collisionIALR.2
+2000b4f0 l     O .bss	00000004 collisionIAUR.1
+2000c535 l     O .bss	00000001 is_link_up.6
+2000c2c8 l     O .bss	00000008 netif_callback
+2000c514 l     O .bss	00000002 physts.5
+2000c3b4 l     O .bss	0000001c s_autoip
+2000c3d0 l     O .bss	00000004 s_checkLinkStatusState
+2000c3d4 l     O .bss	00000034 s_dhcp
+2000c53b l     O .bss	00000001 s_initState
+2000c53c l     O .bss	00000001 s_isNetifAdded
+2000c53d l     O .bss	00000001 s_linkIsCrossover
+2000c53e l     O .bss	00000001 s_linkIsFullDuplex
+2000c53f l     O .bss	00000001 s_linkSpeed10Not100
+2000c418 l     O .bss	00000006 s_mac
+2000c424 l     O .bss	00000001 s_rxNotAvail
+200096c0 l     O .bss	000000a0 s_rxRing
+20009780 l     O .bss	000000a0 s_txRing
+200093fb l     O .data	00000001 isFirstInit.8
+20009370 l     O .data	00000006 multicastMAC.0
+20009378 l     O .data	0000004c s_netif
+200093c4 l     O .data	00000004 s_pRxBD
+200093c8 l     O .data	00000004 s_pTxBD
+00000000 l    df *ABS*	00000000 ethernet.c
+20003d14 l     O .data	00000010 __FUNCTION__.0
+20003dc4 l     O .data	0000000f __FUNCTION__.1
+00000000 l    df *ABS*	00000000 sys_arch.cpp
+00000000 l    df *ABS*	00000000 ip_tools.cpp
+00000000 l    df *ABS*	00000000 SimpleKalmanFilter.cpp
+00000000 l    df *ABS*	00000000 ACAN_T4FD.cpp
+00023974 l     F .text.itcm	00000044 mailboxAddress(unsigned long, ACAN_T4FD_Settings::Payload, unsigned long)
+2000216c l     O .data	00000010 CANFD_LENGTH_CODE
+00000000 l    df *ABS*	00000000 ACAN_T4FD_Settings.cpp
+00000000 l    df *ABS*	00000000 ACAN_T4_Settings.cpp
+00000000 l    df *ABS*	00000000 ACAN_T4_T4FD_rootCANClock.cpp
+20008d38 l     O .data	00000004 gCANClockDivisor
+20008d3c l     O .data	00000004 gCANClock
+00000000 l    df *ABS*	00000000 AsyncWebAuthentication_Teensy41.cpp
+00023fc8 l     F .text.itcm	0000005c getMD5(unsigned char*, unsigned short, char*)
+00024024 l     F .text.itcm	0000005c stringMD5(String const&)
+00024080 l     F .text.itcm	0000005c genRandomMD5()
+00000000 l    df *ABS*	00000000 md5.c
+000290e0 l     F .text.itcm	000006d8 md5_process
+20005ca4 l     O .data	00000040 md5_padding
+00000000 l    df *ABS*	00000000 cencode.c
+00000000 l    df *ABS*	00000000 HardwareSerial.cpp
+00000000 l    df *ABS*	00000000 IPAddress.cpp
+00000000 l    df *ABS*	00000000 Print.cpp
+0002a770 l     F .text.itcm	0000007e Print::printNumber(unsigned long, unsigned char, unsigned char) [clone .part.0]
+00000000 l    df *ABS*	00000000 Stream.cpp
+00000000 l    df *ABS*	00000000 Time.cpp
+20002184 l     O .data	0000000c monthDays
+00000000 l    df *ABS*	00000000 WString.cpp
+2000c52c l     O .bss	00000001 String::operator[](unsigned int)::dummy_writable_char
+00000000 l    df *ABS*	00000000 clockspeed.c
+00000000 l    df *ABS*	00000000 delay.c
+00000000 l    df *ABS*	00000000 digital.c
+00000000 l    df *ABS*	00000000 eeprom.c
+0002ba84 l     F .text.itcm	0000005c flash_wait
+00000000 l    df *ABS*	00000000 main.cpp
+00000000 l    df *ABS*	00000000 memcpy-armv7m.S.o
+00000000 l    df *ABS*	00000000 new.cpp
+00000000 l    df *ABS*	00000000 nonstd.c
+00000000 l    df *ABS*	00000000 pwm.c
+00000000 l    df *ABS*	00000000 rtc.c
+00000000 l    df *ABS*	00000000 usb_inst.cpp
+00000000 l    df *ABS*	00000000 usb_serial.c
+0002d238 l     F .text.itcm	00000060 rx_queue_transfer
+2020a900 l     O .bss.dma	00001000 rx_buffer
+0002d298 l     F .text.itcm	000000b4 rx_event
+0002d34c l     F .text.itcm	00000090 usb_serial_flush_callback
+2020b900 l     O .bss.dma	00002000 txbuffer
+0002d3dc l     F .text.itcm	000001b8 usb_serial_write.part.0
+2000c384 l     O .bss	00000004 rx_available
+2000c388 l     O .bss	00000010 rx_count
+2000c539 l     O .bss	00000001 rx_head
+2000c398 l     O .bss	00000010 rx_index
+2000c3a8 l     O .bss	00000009 rx_list
+2000c518 l     O .bss	00000002 rx_packet_size
+2000c53a l     O .bss	00000001 rx_tail
+20009860 l     O .bss	00000100 rx_transfer
+2000c544 l     O .bss	00000001 transmit_previous_timeout
+2000c522 l     O .bss	00000002 tx_available
+2000c545 l     O .bss	00000001 tx_head
+2000c546 l     O .bss	00000001 tx_noautoflush
+2000c524 l     O .bss	00000002 tx_packet_size
+20009960 l     O .bss	00000080 tx_transfer
+00000000 l    df *ABS*	00000000 yield.cpp
+2000c52a l     O .bss	00000001 yield::running
+00000000 l    df *ABS*	00000000 serialEvent.cpp
+00000000 l    df *ABS*	00000000 sm_pool.c
+00000000 l    df *ABS*	00000000 libm_a-w_fmod.o
+00000000 l    df *ABS*	00000000 libm_a-wf_asin.o
+00000000 l    df *ABS*	00000000 libm_a-wf_atan2.o
+00000000 l    df *ABS*	00000000 libm_a-wf_sqrt.o
+00000000 l    df *ABS*	00000000 libm_a-sf_fabs.o
+00000000 l    df *ABS*	00000000 libm_a-pow.o
+00000000 l    df *ABS*	00000000 libm_a-sf_nan.o
+00000000 l    df *ABS*	00000000 libm_a-ef_sqrt.o
+00000000 l    df *ABS*	00000000 libm_a-e_fmod.o
+00000000 l    df *ABS*	00000000 libm_a-ef_asin.o
+00000000 l    df *ABS*	00000000 libm_a-ef_atan2.o
+00000000 l    df *ABS*	00000000 libm_a-sf_atan.o
+00000000 l    df *ABS*	00000000 libm_a-math_err.o
+0002e96c l     F .text.itcm	00000018 with_errno
+0002e984 l     F .text.itcm	00000022 xflow
+00000000 l    df *ABS*	00000000 atexit_arm.o
+00000000 l    df *ABS*	00000000 new_opnt.o
+00000000 l    df *ABS*	00000000 functexcept.o
+00000000 l    df *ABS*	00000000 functional.o
+00000000 l    df *ABS*	00000000 shared_ptr.o
+00000000 l    df *ABS*	00000000 bad_alloc.o
+00000000 l    df *ABS*	00000000 class_type_info.o
+00000000 l    df *ABS*	00000000 eh_arm.o
+00000000 l    df *ABS*	00000000 eh_catch.o
+00000000 l    df *ABS*	00000000 eh_exception.o
+00000000 l    df *ABS*	00000000 eh_globals.o
+00000000 l    df *ABS*	00000000 eh_personality.o
+0002f0b0 l     F .text.itcm	000000c0 read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*)
+0002f170 l     F .text.itcm	00000048 base_of_encoded_value(unsigned char, _Unwind_Context*)
+0002f1b8 l     F .text.itcm	00000090 parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+00000000 l    df *ABS*	00000000 eh_terminate.o
+00000000 l    df *ABS*	00000000 eh_throw.o
+0002f73c l     F .text.itcm	0000004c __gxx_exception_cleanup(_Unwind_Reason_Code, _Unwind_Control_Block*)
+00000000 l    df *ABS*	00000000 si_class_type_info.o
+00000000 l    df *ABS*	00000000 tinfo.o
+00000000 l    df *ABS*	00000000 vterminate.o
+00000000 l    df *ABS*	00000000 stdexcept.o
+00000000 l    df *ABS*	00000000 cow-stdexcept.o
+00000000 l    df *ABS*	00000000 cow-string-inst.o
+00000000 l    df *ABS*	00000000 cp-demangle.o
+0002fd00 l     F .text.itcm	000000f0 d_make_comp
+0002fdf0 l     F .text.itcm	00000074 d_number
+0002fe64 l     F .text.itcm	00000046 d_call_offset
+0002feac l     F .text.itcm	00000036 d_ref_qualifier
+0002fee4 l     F .text.itcm	000000d4 d_count_templates_scopes
+0002ffb8 l     F .text.itcm	0000001c d_pack_length
+0002ffd4 l     F .text.itcm	00000048 d_discriminator
+0003001c l     F .text.itcm	0000001c d_index_template_argument.part.0
+00030038 l     F .text.itcm	00000078 d_growable_string_callback_adapter
+000300b0 l     F .text.itcm	00000030 next_is_type_qual.isra.0
+000300e0 l     F .text.itcm	00000044 d_append_char
+00030124 l     F .text.itcm	00000036 d_lookup_template_argument
+0003015c l     F .text.itcm	00000094 d_find_pack
+000301f0 l     F .text.itcm	00000066 d_append_string
+00030258 l     F .text.itcm	0000005e d_template_param
+000302b8 l     F .text.itcm	00000078 d_append_num
+00030330 l     F .text.itcm	000000e0 d_source_name
+00030410 l     F .text.itcm	00000194 d_substitution
+000305a4 l     F .text.itcm	0000086e d_type
+00031bf8 l     F .text.itcm	00000152 d_cv_qualifiers
+00030edc l     F .text.itcm	0000006a d_function_type
+000321c0 l     F .text.itcm	0000029c d_name
+00031508 l     F .text.itcm	00000064 d_template_args_1
+00031698 l     F .text.itcm	000004ec d_expression_1
+00030e14 l     F .text.itcm	00000080 d_parmlist
+00030e94 l     F .text.itcm	00000048 d_bare_function_type
+00030f48 l     F .text.itcm	00000108 d_operator_name
+00031050 l     F .text.itcm	00000340 d_unqualified_name
+00031390 l     F .text.itcm	00000120 d_expr_primary
+0003245c l     F .text.itcm	000000f6 d_encoding.part.0
+00031d4c l     F .text.itcm	00000474 d_special_name
+000314b0 l     F .text.itcm	00000058 d_template_arg
+0003156c l     F .text.itcm	0000012a d_prefix
+00031b84 l     F .text.itcm	00000072 d_exprlist
+00032554 l     F .text.itcm	000020f4 d_print_comp_inner
+00034648 l     F .text.itcm	0000005a d_print_comp
+00034cdc l     F .text.itcm	000001d8 d_print_function_type
+00035798 l     F .text.itcm	00000254 d_maybe_print_fold_expression
+000359ec l     F .text.itcm	000001e4 d_maybe_print_designated_init
+000356bc l     F .text.itcm	000000da d_print_subexpr
+000352c4 l     F .text.itcm	00000076 d_print_expr_op
+000346a4 l     F .text.itcm	00000638 d_print_mod
+000350fc l     F .text.itcm	000001c8 d_print_array_type
+00034eb4 l     F .text.itcm	00000248 d_print_mod_list
+0003533c l     F .text.itcm	0000037e d_demangle_callback.constprop.0
+00000000 l    df *ABS*	00000000 eh_call.o
+00035c94 l     F .text.itcm	0000003a __cxxabiv1::__is_gxx_exception_class(char*)
+00000000 l    df *ABS*	00000000 eh_type.o
+00000000 l    df *ABS*	00000000 _arm_addsubdf3.o
+00000000 l    df *ABS*	00000000 _popcountsi2.o
+00000000 l    df *ABS*	00000000 unwind-arm.o
+00036190 l     F .text.itcm	00000012 selfrel_offset31
+000361a4 l     F .text.itcm	0000005c search_EIT_table
+00036200 l     F .text.itcm	00000028 __gnu_unwind_get_pr_addr
+00036228 l     F .text.itcm	00000098 get_eit_entry
+000362c0 l     F .text.itcm	00000058 restore_non_core_regs
+00036318 l     F .text.itcm	0000000a _Unwind_decode_typeinfo_ptr.constprop.0
+00036324 l     F .text.itcm	00000002 _Unwind_DebugHook
+00036328 l     F .text.itcm	0000003a unwind_phase2
+00036364 l     F .text.itcm	000000ca unwind_phase2_forced
+00036540 l     F .text.itcm	0000001a _Unwind_GetGR
+0003658c l     F .text.itcm	00000018 _Unwind_SetGR
+00036628 l     F .text.itcm	000002a8 __gnu_unwind_pr_common
+00000000 l    df *ABS*	00000000 libunwind.o
+00000000 l    df *ABS*	00000000 pr-support.o
+00036d44 l     F .text.itcm	00000038 next_unwind_byte
+00036d7c l     F .text.itcm	0000001a _Unwind_GetGR.constprop.0
+00036d98 l     F .text.itcm	00000004 unwind_UCB_from_context
+00000000 l    df *ABS*	00000000 libc_a-atoi.o
+00000000 l    df *ABS*	00000000 libc_a-atol.o
+00000000 l    df *ABS*	00000000 libc_a-calloc.o
+00000000 l    df *ABS*	00000000 libc_a-callocr.o
+00000000 l    df *ABS*	00000000 libc_a-malloc.o
+00000000 l    df *ABS*	00000000 libc_a-mallocr.o
+00000000 l    df *ABS*	00000000 libc_a-mlock.o
+00000000 l    df *ABS*	00000000 libc_a-rand.o
+00000000 l    df *ABS*	00000000 libc_a-realloc.o
+00000000 l    df *ABS*	00000000 libc_a-reallocr.o
+00000000 l    df *ABS*	00000000 libc_a-strtol.o
+00037af8 l     F .text.itcm	00000144 _strtol_l.constprop.0
+00000000 l    df *ABS*	00000000 libc_a-utoa.o
+00000000 l    df *ABS*	00000000 libc_a-cxa_atexit.o
+00000000 l    df *ABS*	00000000 libc_a-efgcvt.o
+00000000 l    df *ABS*	00000000 libc_a-isspace.o
+00000000 l    df *ABS*	00000000 libc_a-tolower.o
+00000000 l    df *ABS*	00000000 libc_a-fflush.o
+00000000 l    df *ABS*	00000000 libc_a-findfp.o
+00037f2c l     F .text.itcm	00000018 stdio_exit_handler
+00037f44 l     F .text.itcm	00000040 cleanup_stdio
+00037f84 l     F .text.itcm	000000d4 global_stdio_init.part.0
+00000000 l    df *ABS*	00000000 libc_a-fputc.o
+00000000 l    df *ABS*	00000000 libc_a-fputs.o
+00000000 l    df *ABS*	00000000 libc_a-fvwrite.o
+00000000 l    df *ABS*	00000000 libc_a-fwalk.o
+00000000 l    df *ABS*	00000000 libc_a-fwrite.o
+00000000 l    df *ABS*	00000000 libc_a-printf.o
+00000000 l    df *ABS*	00000000 libc_a-putc.o
+00000000 l    df *ABS*	00000000 libc_a-snprintf.o
+00000000 l    df *ABS*	00000000 libc_a-sprintf.o
+00000000 l    df *ABS*	00000000 libc_a-stdio.o
+00000000 l    df *ABS*	00000000 libc_a-vdprintf.o
+00000000 l    df *ABS*	00000000 libc_a-wbuf.o
+00000000 l    df *ABS*	00000000 libc_a-wsetup.o
+00000000 l    df *ABS*	00000000 libc_a-vasnprintf.o
+00000000 l    df *ABS*	00000000 libc_a-memcmp.o
+00000000 l    df *ABS*	00000000 libc_a-memmove.o
+00000000 l    df *ABS*	00000000 libc_a-memset.o
+00000000 l    df *ABS*	00000000 libc_a-strcasecmp.o
+00000000 l    df *ABS*	00000000 libc_a-strchr.o
+00000000 l    df *ABS*	00000000 libc_a-strcspn.o
+00000000 l    df *ABS*	00000000 libc_a-strlcpy.o
+00000000 l    df *ABS*	00000000 libc_a-strncmp.o
+00000000 l    df *ABS*	00000000 libc_a-strncpy.o
+00000000 l    df *ABS*	00000000 libc_a-strrchr.o
+00000000 l    df *ABS*	00000000 libc_a-strspn.o
+00000000 l    df *ABS*	00000000 libc_a-strstr.o
+00038ed4 l     F .text.itcm	000000c6 critical_factorization
+00038f9c l     F .text.itcm	000001f8 two_way_long_needle
+00000000 l    df *ABS*	00000000 libc_a-stpcpy.o
+00000000 l    df *ABS*	00000000 libc_a-locale.o
+00000000 l    df *ABS*	00000000 libc_a-closer.o
+00000000 l    df *ABS*	00000000 libc_a-lseekr.o
+00000000 l    df *ABS*	00000000 libc_a-readr.o
+00000000 l    df *ABS*	00000000 libc_a-sbrkr.o
+00000000 l    df *ABS*	00000000 libc_a-writer.o
+00000000 l    df *ABS*	00000000 libc_a-errno.o
+00000000 l    df *ABS*	00000000 libc_a-init.o
+00000000 l    df *ABS*	00000000 libc_a-lock.o
+00000000 l    df *ABS*	00000000 libc_a-strcmp.o
+00000000 l    df *ABS*	00000000 libc_a-strcpy.o
+00000000 l    df *ABS*	00000000 libc_a-memchr.o
+00000000 l    df *ABS*	00000000 libc_a-strlen.o
+00000000 l    df *ABS*	00000000 libc_a-__atexit.o
+00000000 l    df *ABS*	00000000 libc_a-freer.o
+00000000 l    df *ABS*	00000000 libc_a-mbtowc_r.o
+00000000 l    df *ABS*	00000000 libc_a-mprec.o
+00000000 l    df *ABS*	00000000 libc_a-wctomb_r.o
+00000000 l    df *ABS*	00000000 libc_a-ecvtbuf.o
+00000000 l    df *ABS*	00000000 libc_a-svfiprintf.o
+00000000 l    df *ABS*	00000000 libc_a-svfprintf.o
+00000000 l    df *ABS*	00000000 libc_a-vfprintf.o
+0003dd54 l     F .text.itcm	00000080 __sbprintf
+00000000 l    df *ABS*	00000000 libc_a-vfiprintf.o
+0003ddd4 l     F .text.itcm	00000076 __sprint_r.part.0
+0003edf0 l     F .text.itcm	00000080 __sbprintf
+00000000 l    df *ABS*	00000000 libc_a-fclose.o
+00000000 l    df *ABS*	00000000 libc_a-makebuf.o
+00000000 l    df *ABS*	00000000 libc_a-fputwc.o
+00000000 l    df *ABS*	00000000 libc_a-strnlen.o
+00000000 l    df *ABS*	00000000 libc_a-localeconv.o
+00000000 l    df *ABS*	00000000 libc_a-fstatr.o
+00000000 l    df *ABS*	00000000 libc_a-isattyr.o
+00000000 l    df *ABS*	00000000 libm_a-s_frexp.o
+00000000 l    df *ABS*	00000000 libc_a-assert.o
+00000000 l    df *ABS*	00000000 libc_a-dtoa.o
+0003f258 l     F .text.itcm	00000126 quorem
+00000000 l    df *ABS*	00000000 libc_a-wcrtomb.o
+00000000 l    df *ABS*	00000000 libc_a-wcsrtombs.o
+00000000 l    df *ABS*	00000000 libc_a-fiprintf.o
+00000000 l    df *ABS*	00000000 libc_a-wcsnrtombs.o
+00000000 l    df *ABS*	00000000 libm_a-exp_data.o
+00000000 l    df *ABS*	00000000 libm_a-pow_log_data.o
+00000000 l    df *ABS*	00000000 new_handler.o
+00000000 l    df *ABS*	00000000 libc_a-ctype_.o
+00000000 l    df *ABS*	00000000 libc_a-impure.o
+00000000 l    df *ABS*	00000000 eh_term_handler.o
+00000000 l    df *ABS*	00000000 eh_unex_handler.o
+00000000 l    df *ABS*	00000000 libc_a-__call_atexit.o
+00000000 l    df *ABS*	00000000 ip.c
+00040228 l     F .text.itcm	00000008 ___ZN9qindesign7network13EthernetClassD1Ev_veneer
+00040230 l     F .text.itcm	00000008 ___ZN9qindesign7network13EthernetClassC1EPKh_veneer
+00040238 l     F .text.itcm	00000008 ___ZN9qindesign7network13EthernetClassC1Ev_veneer
+00040240 l     F .text.itcm	00000008 __trng_init_veneer
+00040248 l     F .text.itcm	00000008 ___ZN16CrashReportClasscvbEv_veneer
+00040250 l     F .text.itcm	00000008 ___ZN16LittleFS_Program5beginEm_veneer
+00040258 l     F .text.itcm	00000008 ___ZN8LittleFS14lowLevelFormatEcP5Print_veneer
+00040260 l     F .text.itcm	00000008 ___ZNK16CrashReportClass7printToER5Print_veneer
+00040268 l     F .text.itcm	00000008 ___ZN9qindesign7network9MDNSClassD1Ev_veneer
+00040270 l     F .text.itcm	00000008 ___init_veneer
+00040278 l     F .text.itcm	00000008 ___ZN9qindesign8security12RandomDeviceC1Ev_veneer
+00040280 l     F .text.itcm	00000008 ___ZN8LittleFS11quickFormatEv_veneer
+00040288 l     F .text.itcm	00000008 ___reboot_Teensyduino__veneer
+00040290 l     F .text.itcm	00000008 ___ZN7TwoWire5beginEv_veneer
+60003598 l     F .text.code	00000008 __free_veneer
+600035a0 l     F .text.code	00000008 __enet_get_mac_veneer
+600035a8 l     F .text.code	00000008 __set_arm_clock_veneer
+600035b0 l     F .text.code	00000008 ___ZN6StringaSEPKc_veneer
+600035b8 l     F .text.code	00000008 __main_veneer
+600035c0 l     F .text.code	00000008 ___ZL16flexspi2_ip_readmmPvm_veneer
+600035c8 l     F .text.code	00000008 __sm_set_pool_veneer
+600035d0 l     F .text.code	00000008 __memset_veneer
+600035d8 l     F .text.code	00000008 ___ZL12blockIsBlankP10lfs_configmPvb.part.0_veneer
+600035e0 l     F .text.code	00000008 ___ZN9qindesign8security12RandomDeviceclEv_veneer
+600035e8 l     F .text.code	00000008 ___ZN8SPIClass16beginTransactionE11SPISettings_veneer
+600035f0 l     F .text.code	00000008 ____libc_init_array_veneer
+600035f8 l     F .text.code	00000008 __malloc_veneer
+60003600 l     F .text.code	00000008 __trng_is_started_veneer
+60003608 l     F .text.code	00000008 ___ZN8SPIClass5beginEv_veneer
+60003610 l     F .text.code	00000008 ___ZN6StringC1EPKc_veneer
+60003618 l     F .text.code	00000008 __mdns_resp_remove_netif_veneer
+60003620 l     F .text.code	00000008 __digitalWrite_veneer
+60003628 l     F .text.code	00000008 __pinMode_veneer
+60003630 l     F .text.code	00000008 __srand_veneer
+60003638 l     F .text.code	00000008 ___ZN5Print11printNumberEmhh_veneer
+60003640 l     F .text.code	00000008 ___ZN9qindesign8security12RandomDevice8instanceEv_veneer
+60003648 l     F .text.code	00000008 __memmove_veneer
+60003650 l     F .text.code	00000008 __pwm_init_veneer
+60003658 l     F .text.code	00000008 ___ZN6StringD1Ev_veneer
+60003660 l     F .text.code	00000008 ___ZN9qindesign7network13EthernetClass3endEv_veneer
+60003668 l     F .text.code	00000008 __delay_veneer
+60003670 l     F .text.code	00000008 __usb_init_serialnumber_veneer
+60003678 l     F .text.code	00000008 __usb_serial_write_veneer
+60003680 l     F .text.code	00000008 ___ZN5Print10printFloatEdh_veneer
+60003688 l     F .text.code	00000008 __lfs_unmount_veneer
+60003690 l     F .text.code	00000008 __calloc_veneer
+60003698 l     F .text.code	00000008 __lfs_mount_veneer
+600036a0 l     F .text.code	00000008 ___ZN8SPIClass8transferEPKvPvj_veneer
+600036a8 l     F .text.code	00000008 __lfs_format_veneer
+600036b0 l     F .text.code	00000008 ___ZN5Print7printlnEv_veneer
+600036b8 l     F .text.code	00000008 ___ZN5Print5printEl_veneer
+600036c0 l     F .text.code	00000008 __lfs_fs_traverse_veneer
+6000244c g     F .text.code	00000028 trng_deinit
+0002eac8 g     F .text.itcm	00000030 std::__throw_length_error(char const*)
+200034a4 g     O .data	00000020 typeinfo name for __cxxabiv1::__forced_unwind
+0002fae0 g     F .text.itcm	00000040 std::logic_error::~logic_error()
+0002bc84 g     F .text.itcm	00000010 main
+0001ae08 g     F .text.itcm	00000008 icmp_dest_unreach
+000360fc g     F .text.itcm	0000006a .hidden __aeabi_ul2d
+20003984 g     O .data	0000002c vtable for __cxxabiv1::__si_class_type_info
+0002ea98 g     F .text.itcm	00000030 std::__throw_logic_error(char const*)
+0002d594 g     F .text.itcm	00000002 usb_serial_reset
+0002fc70 g     F .text.itcm	00000014 std::length_error::length_error(char const*)
+00004360 g     F .text.itcm	0000013c AsyncClient::AsyncClient(tcp_pcb*)
+000393cc g     F .text.itcm	00000024 _sbrk_r
+00001350 g     F .text.itcm	00000018 DriverIbt::DriverIbt(unsigned char, unsigned char, unsigned char)
+00023758 g     F .text.itcm	00000030 ACAN_T4::tryToSend(CANMessage const&)
+00040200 g     F .text.itcm	00000024 _wcsnrtombs_r
+000393f0 g     F .text.itcm	0000002c _write_r
+20003428 g     O .data	00000008 typeinfo for __cxxabiv1::__forced_unwind
+000022f8  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#3}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+0001a724 g     F .text.itcm	00000178 etharp_input
+0002ad48 g     F .text.itcm	0000003a String::String(String const&)
+00023eb8  w    F .text.itcm	00000004 AsyncWebHandler::canHandle(AsyncWebServerRequest*)
+0000c150  w    F .text.itcm	00000008 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::saveSteerSettings()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+00007960  w    F .text.itcm	00000024 DriverCAN::disengage()
+0003610c g     F .text.itcm	0000005a .hidden __floatdidf
+000389f4 g     F .text.itcm	00000060 memcmp
+0001b99c g     F .text.itcm	00000030 ip_reass_tmr
+2000aed8 g     O .bss	00000004 EventResponder::firstYield
+00010e9c g     F .text.itcm	00000020 LittleFS_Program::static_prog(lfs_config const*, unsigned long, unsigned long, void const*, unsigned long)
+00019d04 g     F .text.itcm	000001b4 dhcp_renew
+0001d644 g     F .text.itcm	0000001c tcp_seg_free
+00004cd4 g     F .text.itcm	00000006 AsyncClient::_s_dns_found(char const*, ip4_addr*, void*)
+000393a0 g     F .text.itcm	0000002c _read_r
+0003941c g     F .text.itcm	0000000c __errno
+00000f88 g     F .text.itcm	00000194 BNO080::sendPacket(unsigned char, unsigned char)
+00001798  w    F .text.itcm	00000016 LittleFSFile::truncate(unsigned long long)
+0003a24c g     F .text.itcm	00000154 __mdiff
+00016084 g     F .text.itcm	000000dc _spi_dma_rxISR0()
+00009670  w    F .text.itcm	000000d0 int ArduinoJson::V702PB2::detail::VariantData::asIntegral<int>() const
+0002b000 g     F .text.itcm	0000001c String::append(char const*)
+20003468 g     O .data	0000000c typeinfo for std::bad_exception
+0003f380 g     F .text.itcm	00000cec _dtoa_r
+200039d8 g     O .data	00000014 vtable for std::length_error
+00037074 g     F .text.itcm	00000006 .hidden _Unwind_GetDataRelBase
+00001410  w    F .text.itcm	00000010 StaticInit<qindesign::security::RandomDevice>::~StaticInit()
+00029d0c g     F .text.itcm	00000092 HardwareSerial::read()
+0001b5d0 g     F .text.itcm	0000002c ip4_output_if
+0002c870  w    F .text.itcm	00000004 abort
+0001d6d4 g     F .text.itcm	00000020 tcp_arg
+2000c18c g     O .bss	00000004 errno
+000284dc  w    F .text.itcm	0000002c AsyncWebRewrite::match(AsyncWebServerRequest*)
+0001c5a8 g     F .text.itcm	00000054 netif_set_down
+0000554c g     F .text.itcm	00000076 xbuf::write(xbuf*, unsigned int)
+20003c54  w    O .data	00000010 SPIClass::beginTransaction(SPISettings)::clk_sel
+0002b1ec g     F .text.itcm	00000022 String::indexOf(char, unsigned int) const
+00016410 g     F .text.itcm	00000026 qindesign::network::DNSClient::setServer(int, IPAddress const&)
+00015ec4 g     F .text.itcm	00000020 lfs_fs_size
+00002138  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#2}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+0003a208 g     F .text.itcm	00000042 __mcmp
+0003a638 g     F .text.itcm	00001b44 _svfprintf_r
+00010ebc g     F .text.itcm	00000018 LittleFS_Program::static_erase(lfs_config const*, unsigned long)
+00037708 g     F .text.itcm	00000018 realloc
+00029894 g     F .text.itcm	00000088 md5_finish
+20003958 g     O .data	0000002c vtable for __cxxabiv1::__class_type_info
+000285ac  w    F .text.itcm	0000003c AsyncWebRewrite::~AsyncWebRewrite()
+0002f0a0 g     F .text.itcm	00000008 __cxa_get_globals_fast
+60003738 g       .text.code	00000000 __init_array_end
+000159c4 g     F .text.itcm	00000004 lfs_file_write
+0003f150 g     F .text.itcm	0000002c _fstat_r
+000172c8 g     F .text.itcm	000000ac mdns_build_request_domain
+0001cf28 g     F .text.itcm	0000006e pbuf_take_at
+00025b88 g     F .text.itcm	00000038 AsyncWebServerRequest::getParam(String const&, bool, bool) const
+0002222c g     F .text.itcm	00000008 enet_netif
+00011968 g     F .text.itcm	00000178 LittleFS_SPIFram::prog(unsigned long, unsigned long, void const*, unsigned long)
+00022404 g     F .text.itcm	000000e8 enet_poll
+00017028 g     F .text.itcm	000000c8 mdns_build_reverse_v4_domain
+00009440  w    F .text.itcm	00000130 unsigned long ArduinoJson::V702PB2::detail::VariantData::asIntegral<unsigned long>() const
+00036074 g     F .text.itcm	0000001e .hidden __aeabi_ui2d
+0002ef08 g     F .text.itcm	00000070 __gnu_end_cleanup
+00004ffc g     F .text.itcm	0000006e AsyncServer::onClient(std::function<void (void*, AsyncClient*)>, void*)
+200030a8 g     O .data	00000070 SPIClass::spiclass_lpspi4_hardware
+0002a920 g     F .text.itcm	00000164 Print::printFloat(double, unsigned char)
+00021938 g     F .text.itcm	00000058 udp_sendto_if
+00035df8 g     F .text.itcm	0000027a .hidden __aeabi_dsub
+0002b01c g     F .text.itcm	0000001e String::append(char)
+0002f7e0 g     F .text.itcm	00000038 __cxa_throw
+0004006c g     F .text.itcm	0000004c _wcrtomb_r
+0002ba14 g     F .text.itcm	00000070 pinMode
+00016160  w    F .text.itcm	0000002c SPIClass::SPIClass(unsigned int, unsigned int)
+00026bfc  w    F .text.itcm	00000038 AsyncAbstractResponse::~AsyncAbstractResponse()
+20008d68  w    O .data	00000004 ArduinoJson::V702PB2::detail::DefaultAllocator::instance()::allocator
+2000c580 g       .bss	00000000 _ebss
+0003947c g     F .text.itcm	00000002 __retarget_lock_release_recursive
+000154b0 g     F .text.itcm	00000374 lfs_rename
+00036c24 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Save_WMMXD
+0001d408 g     F .text.itcm	00000084 tcp_recved
+60002e38 g     F .text.code	00000002 startup_default_early_hook
+000008c0 g     F .text.itcm	0000012e BNO080::getYaw()
+00024b20 g     F .text.itcm	0000018a AsyncWebServerRequest::~AsyncWebServerRequest()
+0001ddc8 g     F .text.itcm	000000d4 tcp_pcb_remove
+00026968  w    F .text.itcm	00000022 std::_Function_handler<void (AsyncWebHeader* const&), DefaultHeaders::DefaultHeaders()::{lambda(AsyncWebHeader*)#1}>::_M_invoke(std::_Any_data const&, AsyncWebHeader* const&)
+0001d680 g     F .text.itcm	00000054 tcp_seg_copy
+0001fdcc g     F .text.itcm	00000010 tcp_trigger_input_pcb_close
+0003655c g     F .text.itcm	0000002e .hidden _Unwind_VRS_Set
+20003480  w    O .data	00000008 typeinfo for std::_Sp_make_shared_tag
+00003a6c  w    F .text.itcm	00000098 ArduinoJson::V702PB2::detail::VariantData::getOrAddElement(unsigned int, ArduinoJson::V702PB2::detail::ResourceManager*)
+0001c1c0 g     F .text.itcm	00000024 netif_set_default
+0001ccb0 g     F .text.itcm	00000154 pbuf_copy_partial_pbuf
+600018ec g     F .text.code	000001bc LittleFS_SPIFlash::begin(unsigned char, SPIClass&)
+20003854  w    O .data	00000024 vtable for AsyncCallbackWebHandler
+00026770 g     F .text.itcm	00000084 AsyncWebServerRequest::authenticate(char const*, char const*, char const*, bool)
+0003f148 g     F .text.itcm	00000008 _localeconv_r
+000360fc g     F .text.itcm	0000006a .hidden __floatundidf
+0002c474 g     F .text.itcm	00000070 analogWriteFrequency
+0003f1a0 g     F .text.itcm	00000078 frexp
+00017ae4 g     F .text.itcm	00000090 mdns_send_outpacket
+000212d8 g     F .text.itcm	00000060 tcp_timer_needed
+60002474 g     F .text.code	00000034 TwoWire::configSDApin(unsigned char)
+00038d10 g     F .text.itcm	00000032 strcspn
+0002f8b8 g     F .text.itcm	0000003a __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+0002b2dc g     F .text.itcm	00000056 String::substring(unsigned int, unsigned int) const
+00016160  w    F .text.itcm	0000002c SPIClass::SPIClass(unsigned int, unsigned int)
+2000343c g     O .data	00000008 typeinfo for __cxxabiv1::__foreign_exception
+0001e594 g     F .text.itcm	00000022 tcp_eff_send_mss_netif
+00028578  w    F .text.itcm	00000034 AsyncWebRewrite::~AsyncWebRewrite()
+00026b74 g     F .text.itcm	00000050 AsyncWebServerResponse::~AsyncWebServerResponse()
+0001e65c g     F .text.itcm	00000024 tcp_free_ooseq
+000376b8 g     F .text.itcm	00000010 srand
+00001818  w    F .text.itcm	0000001c DriverCytron::disengage()
+0001b070 g     F .text.itcm	00000014 igmp_lookfor_group
+00011e50  w    F .text.itcm	00000006 LittleFS_QSPIFlash::static_erase(lfs_config const*, unsigned long)
+00029b10 g     F .text.itcm	00000044 EventResponder::runFromInterrupt()
+0001c898 g     F .text.itcm	00000078 pbuf_header_force
+00015b30 g     F .text.itcm	00000004 lfs_file_tell
+000364ec g     F .text.itcm	00000012 .hidden __gnu_Unwind_Resume_or_Rethrow
+2000345c g     O .data	0000000c typeinfo for std::length_error
+20008938 g     O .data	00000001 String::zerotermination
+0002ebd4 g     F .text.itcm	00000014 __cxxabiv1::__class_type_info::~__class_type_info()
+20003494 g     O .data	00000008 typeinfo for std::exception
+0005a800 g       *ABS*	00000000 _flashimagelen
+0001b5ac g     F .text.itcm	00000022 ip4_output_if_src
+00004ce4 g     F .text.itcm	0000002e AsyncClient::canSend()
+0001e208 g     F .text.itcm	00000006 tcp_new
+20003450 g     O .data	0000000c typeinfo for std::logic_error
+20206578 g     O .bss.dma	00000100 memp_memory_TCP_SEG_base
+00022e88 g     F .text.itcm	0000000c lpi2c4_isr()
+0002eff4 g     F .text.itcm	0000008a __cxa_end_catch
+00022fc0 g     F .text.itcm	000000bc ACANPrimaryFilter::ACANPrimaryFilter(tFrameKind, tFrameFormat, unsigned long, void (*)(CANMessage const&))
+00038658 g     F .text.itcm	00000088 snprintf
+000402a0 g     F .fini	00000000 _fini
+000229d4  w    F .text.itcm	0000006c TwoWire::TwoWire(IMXRT_LPI2C_t*, TwoWire::I2C_Hardware_t const&)
+0002ea78 g     F .text.itcm	00000020 std::__throw_bad_alloc()
+00022998 g     F .text.itcm	0000003c TwoWire::write(unsigned char const*, unsigned int)
+00029dbc g     F .text.itcm	00000040 nvic_execution_priority()
+0001147c  w    F .text.itcm	00000006 LittleFS_SPIFlash::static_read(lfs_config const*, unsigned long, unsigned long, void*, unsigned long)
+0002e468 g     F .text.itcm	0000020c __ieee754_asinf
+0002a840 g     F .text.itcm	0000004c Print::print(String const&)
+0001c1e4 g     F .text.itcm	00000038 netif_get_by_index
+0002f080 g     F .text.itcm	00000002 std::exception::~exception()
+0000c70c  w    F .text.itcm	00000008 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::saveSteerConfiguration()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+00002c54  w    F .text.itcm	0000003c LittleFSFile::~LittleFSFile()
+0002ec04 g     F .text.itcm	00000042 __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+0000bd2c  w    F .text.itcm	0000012c std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), Imu::setOffset()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+0001882c g     F .text.itcm	000000f4 acd_tmr
+0000c89c  w    F .text.itcm	000001b0 ArduinoJson::V702PB2::detail::JsonDeserializer<ArduinoJson::V702PB2::detail::Reader<unsigned char*, void> >::parseQuotedString()
+0001abec g     F .text.itcm	0000002c etharp_acd_announce
+0002d1ac g     F .text.itcm	0000001c usb_receive
+00036cd8 g     F .text.itcm	00000022 .hidden ___Unwind_Resume_or_Rethrow
+000040c0 g     F .text.itcm	00000024 AsyncUDP::AsyncUDP()
+20003a00 g     O .data	00000014 vtable for std::bad_function_call
+60001f18 g     F .text.code	00000238 LittleFS_QSPIFlash::begin()
+60001aa8 g     F .text.code	00000270 LittleFS_SPIFram::begin(unsigned char, SPIClass&)
+200034c4 g     O .data	00000022 typeinfo name for __cxxabiv1::__class_type_info
+00028f68 g     F .text.itcm	0000003e AsyncWebServer::~AsyncWebServer()
+200036a4  w    O .data	00000024 vtable for AsyncWebHandler
+0001c714 g     F .text.itcm	00000028 pbuf_free_ooseq
+0002307c g     F .text.itcm	0000003c ACAN_T4::ACAN_T4(unsigned long, ACAN_T4_Module)
+00024dfc g     F .text.itcm	00000364 AsyncWebServerRequest::_parseReqHeader()
+00036bb8 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Save_VFP
+20003780  w    O .data	0000000c vtable for SensorADS1115Reader
+00007984  w    F .text.itcm	0000001c DriverCAN::drive(float)
+00001408  w    F .text.itcm	00000002 std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>::~_Sp_counted_ptr_inplace()
+0000a67c  w    F .text.itcm	00000008 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#2}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+0000bd24  w    F .text.itcm	00000008 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::saveConfiguration()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+00026898  w    F .text.itcm	00000004 AsyncAbstractResponse::_fillBuffer(unsigned char*, unsigned int)
+20003744 g     O .data	0000003c vtable for AsyncBasicResponse
+00004fc4 g     F .text.itcm	00000014 AsyncClient::space()
+60002e38  w    F .text.code	00000002 startup_early_hook
+00039488 g     F .text.itcm	000002dc strcmp
+0000111c g     F .text.itcm	00000030 BNO080::softReset()
+00002998  w    F .text.itcm	00000058 LittleFSFile::setCreateTime(DateTimeFields const&)
+6000fcc0 g     O .text.progmem	00000050 TwoWire::i2c1_hardware
+00001d38  w    F .text.itcm	00000380 ImuRvc::parse()
+0000b110  w    F .text.itcm	00000036 ArduinoJson::V702PB2::detail::VariantData* ArduinoJson::V702PB2::detail::VariantData::getOrAddMember<ArduinoJson::V702PB2::detail::StaticStringAdapter>(ArduinoJson::V702PB2::detail::StaticStringAdapter, ArduinoJson::V702PB2::detail::ResourceManager*)
+20009308 g     O .data	00000004 __malloc_trim_threshold
+00036168 g     F .text.itcm	00000028 .hidden __popcountsi2
+00028318  w    F .text.itcm	0000002e AsyncCallbackWebHandler::handleBody(AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)
+6000fdb2  w    O .text.progmem	00000001 _serialEvent_default
+0002c878 g     F .text.itcm	00000060 tempmonGetTemp
+0002bbcc g     F .text.itcm	000000b8 eepromemu_flash_erase_64K_block
+00038814 g     F .text.itcm	000000b0 __swbuf_r
+20009318 g     O .data	00000004 _impure_ptr
+000032a4  w    F .text.itcm	000000b8 File::~File()
+0001cff8 g     F .text.itcm	0000001c pbuf_put_at
+0001bdc0 g     F .text.itcm	000001d4 ip4_frag
+00022b88 g     F .text.itcm	000000fc TwoWire::endTransmission(unsigned char)
+2000aec0 g     O .bss	00000004 StaticInit<qindesign::security::RandomDevice>::nifty_counter
+0001e408 g     F .text.itcm	00000058 tcp_recv_null
+0001e4cc g     F .text.itcm	00000084 tcp_fasttmr
+000402a4 g       .ARM.exidx	00000000 __exidx_start
+6000fdba g     O .text.progmem	00000001 _serialEvent8_default
+00002a20  w    F .text.itcm	00000096 SensorInternalReader::update()
+0003f0bc g     F .text.itcm	00000066 _fputwc_r
+0001c35c g     F .text.itcm	000000e8 netif_set_addr
+00010f74  w    F .text.itcm	00000058 LittleFS::usedSize()
+00007c60 g     F .text.itcm	000000e8 humanReadableSize(unsigned int)
+00000000 g       .text.itcm	00000000 _stext
+0001d7e4 g     F .text.itcm	00000028 tcp_accept
+00029dfc g     F .text.itcm	00000278 HardwareSerial::begin(unsigned long, unsigned short)
+00026b60  w    F .text.itcm	00000014 DefaultHeaders::~DefaultHeaders()
+00001370  w    F .text.itcm	00000006 LittleFSFile::peek()
+00009740  w    F .text.itcm	00000348 ArduinoJson::V702PB2::detail::enable_if<(!ArduinoJson::V702PB2::detail::IsVariant<int>::value)&&(!ArduinoJson::V702PB2::detail::is_array<int>::value), int>::type ArduinoJson::V702PB2::detail::operator|<int>(ArduinoJson::V702PB2::detail::ElementProxy<ArduinoJson::V702PB2::detail::MemberProxy<ArduinoJson::V702PB2::detail::MemberProxy<ArduinoJson::V702PB2::JsonDocument&, char const*>, char const*> > const&, int const&)
+2000350c g     O .data	00000025 typeinfo name for __cxxabiv1::__si_class_type_info
+0002d228  w    F .text.itcm	00000004 usb_serial_class::flush()
+00038b4c g     F .text.itcm	000000a4 memset
+00002af8 g     F .text.itcm	00000030 xbuf::~xbuf()
+00023eac g     F .text.itcm	0000000c getCANRootClockDivisor()
+000178b4 g     F .text.itcm	00000230 mdns_create_outpacket
+0001c794 g     F .text.itcm	00000036 pbuf_alloced_custom
+000392fc g     F .text.itcm	00000046 stpcpy
+0002ea30 g     F .text.itcm	00000028 .hidden __math_check_oflow
+60001000 g     O .text.headers	00000020 ImageVectorTable
+00023a88 g     F .text.itcm	000000c4 ACAN_T4::readRxRegistersFD(CANFDMessage&, unsigned long)
+000268a8 g     F .text.itcm	0000000a AsyncWebServerResponse::setCode(int)
+20280000 g       .text.csf	00000000 _heap_end
+00022fc0 g     F .text.itcm	000000bc ACANPrimaryFilter::ACANPrimaryFilter(tFrameKind, tFrameFormat, unsigned long, void (*)(CANMessage const&))
+00038d44 g     F .text.itcm	00000044 strlcpy
+20206200 g     O .bss.dma	000000e0 memp_memory_SYS_TIMEOUT_base
+0002f088 g     F .text.itcm	00000008 std::bad_exception::what() const
+00022788 g     F .text.itcm	00000004 qindesign::security::RandomDevice::operator()()
+000042ac g     F .text.itcm	00000016 AsyncUDPPacket::write(unsigned char const*, unsigned int)
+70000000 g       .bss.extram	00000000 _extram_end
+00028814 g     F .text.itcm	0000001c AsyncWebServer::_handleDisconnect(AsyncWebServerRequest*)
+20003558 g     O .data	00000012 typeinfo name for std::bad_exception
+0000077c g     F .text.itcm	00000144 BNO080::getPitch()
+0002e1d0 g     F .text.itcm	00000298 __ieee754_fmod
+0002d0f0 g     F .text.itcm	00000064 usb_config_tx
+0001618c g     F .text.itcm	00000234 SPIClass::begin()
+000280a4 g     F .text.itcm	00000032 AsyncAbstractResponse::_ack(AsyncWebServerRequest*, unsigned int, unsigned long)
+0000c714  w    F .text.itcm	00000188 void ArduinoJson::V702PB2::detail::Utf8::encodeCodepoint<ArduinoJson::V702PB2::detail::StringBuilder>(unsigned long, ArduinoJson::V702PB2::detail::StringBuilder&)
+0002f888 g     F .text.itcm	00000014 __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0002b5b0 g     F .text.itcm	000002f0 set_arm_clock
+0000e3a0  w    F .text.itcm	000000d8 JsonDB::saveConfiguration()
+0001c73c g     F .text.itcm	00000058 pbuf_alloc_reference
+20008d88 g     O .data	00000004 __brkval
+2000c549 g     O .bss	00000001 usb_high_speed
+000187ec g     F .text.itcm	00000030 acd_start
+000017bc  w    F .text.itcm	0000001c LittleFSFile::read(void*, unsigned int)
+00026cf0  w    F .text.itcm	00000058 AsyncCallbackResponse::~AsyncCallbackResponse()
+0002f088 g     F .text.itcm	00000008 transaction clone for std::bad_exception::what() const
+00026c34  w    F .text.itcm	0000002c AsyncBasicResponse::~AsyncBasicResponse()
+60002e44 g     F .text.code	00000004 startup_debug_reset
+000360b8 g     F .text.itcm	00000042 .hidden __extendsfdf2
+0002c864  w    F .text.itcm	00000004 _isatty
+0001d860 g     F .text.itcm	0000008a tcp_pcb_purge
+000013c8  w    F .text.itcm	00000006 std::_Function_handler<void (AsyncWebServerRequest*), void (*)(AsyncWebServerRequest*)>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&)
+0002d1c8 g     F .text.itcm	00000004 usb_transfer_status
+00039a24 g     F .text.itcm	000000a0 _malloc_trim_r
+0001d48c g     F .text.itcm	00000194 tcp_connect
+0002d224  w    F .text.itcm	00000004 usb_serial_class::clear()
+00037120 g     F .text.itcm	00000010 malloc
+00016fe0 g     F .text.itcm	00000046 mdns_domain_add_domain
+00004cdc g     F .text.itcm	00000006 AsyncClient::setRxTimeout(unsigned long)
+0003a118 g     F .text.itcm	000000f0 __lshift
+00036bc0 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Restore_VFP_D
+20008940 g     O .data	00000120 _impure_data
+00037060 g     F .text.itcm	00000012 .hidden _Unwind_GetLanguageSpecificData
+00002fec g     F .text.itcm	000000b8 AsyncClient::_s_sent(void*, tcp_pcb*, unsigned short)
+2000a588 g     O .bss	00000060 Serial8
+0000b148  w    F .text.itcm	00000bdc JsonDB::saveConfiguration()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}::operator()(ArduinoJson::V702PB2::JsonDocument&) const
+0001d794 g     F .text.itcm	00000050 tcp_err
+0002b4c4 g     F .text.itcm	0000008c analogRead
+2000a468 g     O .bss	00000060 Serial5
+200093e0  w    O .data	00000016 usb_string_serial_number
+000040e4 g     F .text.itcm	00000078 AsyncUDP::_recv(udp_pcb*, pbuf*, ip4_addr*, unsigned short const&)
+000186d4 g     F .text.itcm	00000010 dns_gethostbyname
+60002e48 g     F .text.code	000000f8 configure_cache
+00018a60 g     F .text.itcm	00000070 autoip_set_struct
+2000a4c8 g     O .bss	00000060 Serial6
+00029c98 g     F .text.itcm	00000072 HardwareSerial::peek()
+000285e8  w    F .text.itcm	00000068 AsyncCallbackWebHandler::~AsyncCallbackWebHandler()
+000163c0 g     F .text.itcm	00000008 SPIClass::transfer(void const*, void*, unsigned int)
+0002a408 g     F .text.itcm	0000000c IRQHandler_Serial3
+200038dc g     O .data	00000024 vtable for TwoWire
+00035dd4 g     F .text.itcm	0000001a __cxa_current_exception_type
+00004fd8 g     F .text.itcm	00000024 AsyncServer::AsyncServer(unsigned short)
+00010d70  w    F .text.itcm	00000004 LittleFS_SPIFram::static_sync(lfs_config const*)
+0002b0cc g     F .text.itcm	00000042 String::equalsIgnoreCase(String const&) const
+000214e4 g     F .text.itcm	00000018 udp_init
+00026088 g     F .text.itcm	000001ac AsyncWebServerRequest::_parseReqHead()
+0002a48c g     F .text.itcm	0000000c IRQHandler_Serial4
+0002aafc g     F .text.itcm	00000158 breakTime(unsigned long, DateTimeFields&)
+0002db40 g     F .text.itcm	00000050 fmod
+00004708 g     F .text.itcm	000000ba AsyncClient::~AsyncClient()
+0002edf4 g     F .text.itcm	000000b0 __cxa_type_match
+000400b8 g     F .text.itcm	00000016 _wcsrtombs_r
+00026234 g     F .text.itcm	000000d8 AsyncWebServerRequest::_parseLine()
+0002a594 g     F .text.itcm	0000000c IRQHandler_Serial6
+0002e9f8 g     F .text.itcm	0000001e .hidden __math_invalid
+00038a54 g     F .text.itcm	000000f8 memmove
+0002f9a0 g     F .text.itcm	00000004 std::type_info::__is_function_p() const
+2000b074 g     O .bss	00000004 qindesign::security::randomDevice
+0002a510 g     F .text.itcm	0000000c IRQHandler_Serial5
+0001cf98 g     F .text.itcm	00000024 pbuf_clone
+0002a618 g     F .text.itcm	0000000c IRQHandler_Serial7
+00020c88 g     F .text.itcm	00000070 tcp_send_empty_ack
+00026bfc  w    F .text.itcm	00000038 AsyncAbstractResponse::~AsyncAbstractResponse()
+0002a69c g     F .text.itcm	0000000c IRQHandler_Serial8
+00021b6c g     F .text.itcm	00000044 udp_new_ip_type
+0000139c g     F .text.itcm	0000001c xbuf::write(unsigned char)
+0002eb00 g     F .text.itcm	00000014 std::bad_function_call::~bad_function_call()
+00015a1c g     F .text.itcm	00000114 lfs_file_truncate
+000220d0 g     F .text.itcm	00000034 enet_has_hardware
+0002bdc8 g     F .text.itcm	00000004 operator new(unsigned int)
+00018758 g     F .text.itcm	0000000c inet_chksum
+2000c4a4 g     O .bss	00000004 tcp_tw_pcbs
+00029a8c g     F .text.itcm	00000084 EventResponder::triggerEventNotImmediate()
+0001c528 g     F .text.itcm	0000001a netif_add_noaddr
+000376c8 g     F .text.itcm	00000040 rand
+00000cc4 g     F .text.itcm	0000027c BNO080::receivePacket()
+00037eb8 g     F .text.itcm	00000074 fflush
+70000000 g       .bss.extram	00000000 _extram_start
+6005a800 g       .text.csf	00000000 __text_csf_end
+0001a07c g     F .text.itcm	00000230 dhcp_coarse_tmr
+6000fdb8 g     O .text.progmem	00000001 _serialEvent6_default
+0002421c g     F .text.itcm	00000450 checkDigestAuthentication(char const*, char const*, char const*, char const*, char const*, bool, char const*, char const*, char const*)
+00038d88 g     F .text.itcm	0000008a strncmp
+2000b270 g     O .bss	00000001 __lock___malloc_recursive_mutex
+00036430 g     F .text.itcm	00000066 .hidden __gnu_Unwind_RaiseException
+00002d60 g     F .text.itcm	00000038 AsyncUDP::~AsyncUDP()
+00022f50 g     F .text.itcm	0000000e SimpleKalmanFilter::SimpleKalmanFilter(float, float, float)
+2000c4a0 g     O .bss	00000004 tcp_ticks
+600016d8 g     F .text.code	000000d8 LittleFS_SPIFlash::getMediaName()
+00001368  w    F .text.itcm	00000004 Print::availableForWrite()
+000276dc g     F .text.itcm	000000f4 AsyncWebServerResponse::AsyncWebServerResponse()
+00004958 g     F .text.itcm	00000054 AsyncClient::_s_error(void*, signed char)
+0000335c  w    F .text.itcm	000000e4 File::close()
+0002d850 g     F .text.itcm	0000002c usb_serial_putchar
+000067d4  w    F .text.itcm	00000220 GNSS::getNmea()
+000042c4 g     F .text.itcm	0000001c AsyncUDP::write(unsigned char const*, unsigned int)
+00007b60  w    F .text.itcm	000000fc Autosteering::sendSincro()
+00036bc8 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Save_VFP_D
+00015b34 g     F .text.itcm	00000016 lfs_file_size
+00036500 g     F .text.itcm	00000002 .hidden _Unwind_Complete
+000224ec g     F .text.itcm	00000110 enet_set_mac_address_allowed
+0001bfd8 g     F .text.itcm	0000004c mem_free
+600036c8 g       .text.code	00000000 __preinit_array_end
+00022e94 g     F .text.itcm	00000078 TwoWire::setClock(unsigned long)
+0003975c g     F .text.itcm	000000ba strcpy
+00002c20  w    F .text.itcm	00000034 LittleFSFile::~LittleFSFile()
+0002b99c g     F .text.itcm	00000054 digitalWrite
+000269e0 g     F .text.itcm	00000038 AsyncCallbackResponse::_fillBuffer(unsigned char*, unsigned int)
+00036504 g     F .text.itcm	0000000c .hidden _Unwind_DeleteException
+0000d26c  w    F .text.itcm	00000214 ArduinoJson::V702PB2::detail::JsonDeserializer<ArduinoJson::V702PB2::detail::Reader<File, void> >::parseQuotedString()
+00026d48  w    F .text.itcm	00000022 Print::write(char const*)
+00004360 g     F .text.itcm	0000013c AsyncClient::AsyncClient(tcp_pcb*)
+00038990 g     F .text.itcm	00000062 _vasnprintf_r
+000228b0 g     F .text.itcm	0000002a entropy_random
+2000371c  w    O .data	00000028 vtable for usb_serial_class
+0001644c  w    F .text.itcm	00000020 EventResponder::~EventResponder()
+0002a720  w    F .text.itcm	00000006 usb_serial_class::write(unsigned char)
+20003430 g     O .data	0000000c typeinfo for __cxxabiv1::__class_type_info
+00015d8c g     F .text.itcm	00000026 lfs_dir_close
+0001c080 g     F .text.itcm	0000005c memp_init
+00016b90 g     F .text.itcm	0000000c get_mdns_pcb
+0002ebc8 g     F .text.itcm	0000000c __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+2000adf4 g     O .bss	00000004 StaticInit<qindesign::network::MDNSClass>::nifty_counter
+2000c48c g     O .bss	00000004 systick_safe_read
+00038e78 g     F .text.itcm	0000002c strrchr
+00002be8 g     F .text.itcm	00000038 xbuf::~xbuf()
+20008d44 g     O .data	00000004 __cxxabiv1::__unexpected_handler
+0002adc0 g     F .text.itcm	0000002e String::reserve(unsigned int)
+00037cf8 g     F .text.itcm	0000000c __cxa_atexit
+0002af54 g     F .text.itcm	00000022 String::operator=(char const*)
+00011120  w    F .text.itcm	00000238 LittleFS::open(char const*, unsigned char)
+00023924 g     F .text.itcm	00000014 flexcan_isr_can2()
+0001d8ec g     F .text.itcm	000004dc tcp_slowtmr
+0002c84c  w    F .text.itcm	00000004 _read
+0002af28 g     F .text.itcm	0000002a String::operator=(String&&)
+6000fd60 g     O .text.progmem	00000050 TwoWire::i2c4_hardware
+00028e20 g     F .text.itcm	00000148 AsyncWebServer::reset()
+2000c4f4 g     O .bss	00000004 udp_pcbs
+0002d1cc g     F .text.itcm	00000058 usb_init_serialnumber
+00000025 g       *ABS*	00000000 _teensy_model_identifier
+0003ef38 g     F .text.itcm	000000d8 __smakebuf_r
+00035cf0 g     F .text.itcm	000000e4 __cxa_call_unexpected
+00003854  w    F .text.itcm	00000218 ArduinoJson::V702PB2::detail::CollectionData::addSlot(ArduinoJson::V702PB2::detail::ResourceManager*)
+60002250 g     F .text.code	00000074 qindesign::network::EthernetClass::EthernetClass(unsigned char const*)
+00020b78 g     F .text.itcm	00000080 tcp_rexmit_fast
+20003444 g     O .data	0000000c typeinfo for __cxxabiv1::__si_class_type_info
+00005dbc g     F .text.itcm	00000260 AsyncHTTPRequest::_connect()
+00039d48 g     F .text.itcm	00000012 _Bfree
+0001c83c g     F .text.itcm	0000005c pbuf_remove_header
+00015960 g     F .text.itcm	00000014 lfs_file_open
+00039474 g     F .text.itcm	00000002 __retarget_lock_close_recursive
+00015cf0 g     F .text.itcm	0000009c lfs_dir_open
+00037140 g     F .text.itcm	00000560 _malloc_r
+0002b234 g     F .text.itcm	00000050 String::lastIndexOf(String const&, unsigned int) const
+0002ca30 g     F .text.itcm	0000002c usb_stop_sof_interrupts
+000009f0 g     F .text.itcm	0000003a BNO080::getAccelX()
+0002ad84 g     F .text.itcm	0000002a String::String(String&&)
+000277d0 g     F .text.itcm	000000c8 AsyncBasicResponse::AsyncBasicResponse(int, String const&, char const*)
+00028650  w    F .text.itcm	00000070 AsyncCallbackWebHandler::~AsyncCallbackWebHandler()
+00001440  w    F .text.itcm	0000000e std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>::~_Sp_counted_ptr_inplace()
+0000a7c0  w    F .text.itcm	000000c0 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#3}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+0001d80c g     F .text.itcm	00000054 tcp_poll
+0003f124 g     F .text.itcm	00000024 strnlen
+0002b948 g     F .text.itcm	00000054 micros
+0002c858  w    F .text.itcm	0000000a _fstat
+20003878  w    O .data	0000002c vtable for File
+200035bc g     O .data	0000000d typeinfo name for std::type_info
+0001c104 g     F .text.itcm	00000028 memp_free
+00017444 g     F .text.itcm	0000000e mdns_multicast_timeout_reset_ipv4
+0002e1c8 g     F .text.itcm	00000006 __ieee754_sqrtf
+200039c4 g     O .data	00000014 vtable for std::logic_error
+20000b90 g     O .data	00000028 __mprec_bigtens
+0002dbe8 g     F .text.itcm	00000004 atan2f
+00002d2c  w    F .text.itcm	00000034 JsonDB::~JsonDB()
+00037720 g     F .text.itcm	000003d8 _realloc_r
+2000c533 g     O .bss	00000001 external_psram_size
+00001450  w    F .text.itcm	00000006 std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>::_M_destroy()
+00037cf4 g     F .text.itcm	00000004 utoa
+00023df4 g     F .text.itcm	0000008a ACAN_T4_Settings::CANBitSettingConsistency() const
+000248f8 g     F .text.itcm	00000228 AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)
+000201b4 g     F .text.itcm	00000594 tcp_write
+00026fd0 g     F .text.itcm	00000250 AsyncBasicResponse::_respond(AsyncWebServerRequest*)
+000268dc g     F .text.itcm	00000010 AsyncWebServerResponse::_failed() const
+2000b26c g     O .bss	00000001 __lock___atexit_recursive_mutex
+00039cd0 g     F .text.itcm	0000002a __ascii_mbtowc
+000368d8  w    F .text.itcm	00000006 .hidden __aeabi_unwind_cpp_pr1
+2000c49c g     O .bss	00000004 tcp_listen_pcbs
+000368e0  w    F .text.itcm	00000006 .hidden __aeabi_unwind_cpp_pr2
+00028484  w    F .text.itcm	00000058 AsyncCallbackWebHandler::handleUpload(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)
+0002eb64 g     F .text.itcm	00000014 std::bad_alloc::~bad_alloc()
+00022900 g     F .text.itcm	00000040 sys_check_core_locking
+6000358c g     F .text.code	00000000 _init
+0001c444 g     F .text.itcm	000000e4 netif_add
+00015fa8 g     F .text.itcm	000000dc _spi_dma_rxISR1()
+000214fc g     F .text.itcm	000001d8 udp_input
+0002c3a8 g     F .text.itcm	000000cc analogWrite
+0001ae10 g     F .text.itcm	00000008 icmp_time_exceeded
+0002c680  w    F .text.itcm	00000002 serialEvent3()
+600024a8 g     F .text.code	00000054 TwoWire::setSDA(unsigned char)
+00018c4c g     F .text.itcm	0000001e autoip_accept_packet
+0001b240 g     F .text.itcm	000001cc ip4_input
+000368d0 g     F .text.itcm	00000006 .hidden __aeabi_unwind_cpp_pr0
+00022940 g     F .text.itcm	0000000c qindesign::network::operator!=(IPAddress const&, IPAddress const&)
+2000aec4 g     O .bss	00000001 StaticInit<qindesign::security::RandomDevice>::buf
+0000415c g     F .text.itcm	00000010 AsyncUDP::_s_recv(void*, udp_pcb*, pbuf*, ip4_addr const*, unsigned short)
+00026964  w    F .text.itcm	00000004 usb_serial_class::read()
+0002b110 g     F .text.itcm	00000026 String::startsWith(String const&) const
+200093e0 g     O .data	00000016 usb_string_serial_number_default
+000227f8 g     F .text.itcm	000000b8 trng_data
+00011ae8 g     F .text.itcm	00000190 LittleFS_SPIFram::erase(unsigned long)
+00036074 g     F .text.itcm	0000001e .hidden __floatunsidf
+00026890  w    F .text.itcm	00000004 AsyncBasicResponse::_sourceValid() const
+00039344 g     F .text.itcm	0000000c __locale_mb_cur_max
+00021078 g     F .text.itcm	00000050 tcp_rexmit_rto
+0001b9cc g     F .text.itcm	000003f4 ip4_reass
+00000a68 g     F .text.itcm	0000003a BNO080::getAccelZ()
+000360b8 g     F .text.itcm	00000042 .hidden __aeabi_f2d
+0001d620 g     F .text.itcm	00000022 tcp_segs_free
+00026ca0  w    F .text.itcm	00000050 AsyncCallbackResponse::~AsyncCallbackResponse()
+0002dc40 g     F .text.itcm	0000057c pow
+000158e4 g     F .text.itcm	0000007a lfs_setattr
+000151f4 g     F .text.itcm	00000158 lfs_mount
+0002f89c g     F .text.itcm	0000001c __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+00001330 g     F .text.itcm	00000020 DriverIbt::disengage()
+200036dc g     O .data	0000000c vtable for CrashReportClass
+2000c2d0 g     O .bss	00000004 netif_default
+00015eec g     F .text.itcm	00000044 lfs_crc
+2020a880 g     O .bss.dma	00000062 usb_descriptor_buffer
+0002db90 g     F .text.itcm	00000058 asinf
+00028718 g     F .text.itcm	000000e4 AsyncWebServer::AsyncWebServer(unsigned short)
+2000c490 g     O .bss	00000004 tcp_active_pcbs
+0001c024 g     F .text.itcm	00000004 mem_calloc
+0002e9b8 g     F .text.itcm	00000010 .hidden __math_oflow
+000268cc g     F .text.itcm	0000000e AsyncWebServerResponse::_finished() const
+000388c4 g     F .text.itcm	000000cc __swsetup_r
+2000c526 g     O .bss	00000001 EventResponder::runningFromYield
+000230b8 g     F .text.itcm	00000518 ACAN_T4::begin(ACAN_T4_Settings const&, ACANPrimaryFilter const*, unsigned long, ACANSecondaryFilter const*, unsigned long)
+600022c4 g     F .text.code	0000000e qindesign::network::EthernetClass::EthernetClass()
+20005eb0 g     O .data	0000000c memp_TCP_SEG
+0002aa88 g     F .text.itcm	00000074 Stream::readBytes(char*, unsigned int)
+0001720c g     F .text.itcm	000000bc mdns_build_service_domain
+00023ecc  w    F .text.itcm	0000002c AsyncWebHandler::~AsyncWebHandler()
+00039194 g     F .text.itcm	00000168 strstr
+0001e550 g     F .text.itcm	00000024 tcp_tmr
+0002c868  w    F .text.itcm	00000006 _lseek
+00010e7c g     F .text.itcm	00000020 LittleFS_Program::static_read(lfs_config const*, unsigned long, unsigned long, void*, unsigned long)
+000384ec g     F .text.itcm	000000aa _fwrite_r
+0000e478  w    F .text.itcm	00000a8c Autosteering::parseUdp(AsyncUDPPacket)
+00016a34 g     F .text.itcm	00000030 qindesign::network::MDNSClass::end()
+0001097c g     F .text.itcm	000003d4 setup
+00015388 g     F .text.itcm	00000128 lfs_remove
+2000359c g     O .data	0000000d typeinfo name for std::bad_alloc
+0001b20c g     F .text.itcm	00000034 ip4_route
+0002693c g     F .text.itcm	0000000e AsyncWebServerResponse::setContentType(String const&)
+60001020 g     O .text.headers	0000000c BootData
+0002f700 g     F .text.itcm	00000008 __cxxabiv1::__unexpected(void (*)())
+0001101c  w    F .text.itcm	0000002c LittleFS::rmdir(char const*)
+00003630  w    F .text.itcm	00000012 std::_Function_base::~_Function_base()
+2000c484 g     O .bss	00000004 systick_cycle_count
+00018920 g     F .text.itcm	000000d0 acd_arp_reply
+00039d5c g     F .text.itcm	000000a4 __multadd
+0002d154 g     F .text.itcm	00000030 usb_prepare_transfer
+2000c52b  w    O .bss	00000001 Autosteering::sendSincro()::requestOpenResult
+00037028 g     F .text.itcm	0000002a .hidden __gnu_unwind_frame
+000236c8 g     F .text.itcm	00000090 ACAN_T4::tryToSendDataFrame(CANMessage const&)
+20003680 g     O .data	00000024 vtable for HardwareSerial
+000022d8  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#4}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00003644  w    F .text.itcm	00000124 ArduinoJson::V702PB2::detail::VariantData::release(ArduinoJson::V702PB2::detail::ResourceManager*)
+000060ac g     F .text.itcm	0000014a AsyncHTTPRequest::_addHeader(char const*, char const*)
+00023e80 g     F .text.itcm	0000000c getCANRootClock()
+000405c0 g       .text.itcm	00000000 _etext
+0002b550 g     F .text.itcm	00000060 analogReadRes
+00039350 g     F .text.itcm	00000024 _close_r
+0000a7b8  w    F .text.itcm	00000008 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#4}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+00001398 g     F .text.itcm	00000002 AsyncUDPPacket::~AsyncUDPPacket()
+00027220 g     F .text.itcm	00000328 AsyncWebServerResponse::_responseCodeToString(int)
+2000621c g     O .data	000000dc pwm_pin_info
+0001f23c g     F .text.itcm	00000b90 tcp_input
+00002940  w    F .text.itcm	00000058 LittleFSFile::setModifyTime(DateTimeFields const&)
+20005ec8 g     O .data	00000028 memp_pools
+0002a1a0 g     F .text.itcm	00000164 HardwareSerial::IRQHandler()
+00011960  w    F .text.itcm	00000006 LittleFS_SPIFram::static_read(lfs_config const*, unsigned long, unsigned long, void*, unsigned long)
+0000ef48  w    F .text.itcm	0000079c JsonDB::begin(FS&, bool)
+0002a8dc g     F .text.itcm	0000001c Print::printf(char const*, ...)
+0002a074 g     F .text.itcm	00000032 HardwareSerial::addMemoryForRead(void*, unsigned int)
+20005e5c g     O .data	0000000c memp_IGMP_GROUP
+0002c31c g     F .text.itcm	0000008c quadtimerFrequency
+00020aec g     F .text.itcm	0000008c tcp_rexmit
+0003f218 g     F .text.itcm	00000040 __assert_func
+20003674  w    O .data	0000000c vtable for EventResponder
+600024fc g     F .text.code	00000034 TwoWire::configSCLpin(unsigned char)
+0002bddc g     F .text.itcm	00000062 ultoa
+00001a64  w    F .text.itcm	00000020 StaticInit<qindesign::network::MDNSClass>::~StaticInit()
+00021bb0 g     F .text.itcm	00000038 udp_netif_ip_addr_changed
+0001b578 g     F .text.itcm	00000032 ip4_output_if_opt
+20002fc8 g     O .data	00000070 SPIClass::spiclass_lpspi1_hardware
+00002158  w    F .text.itcm	00000020 std::_Function_handler<void (void*, AsyncHTTPRequest*, int), void (*)(void*, AsyncHTTPRequest*, int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00002218  w    F .text.itcm	00000020 std::_Function_handler<void (AsyncWebServerRequest*), void (*)(AsyncWebServerRequest*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000093dc  w    F .text.itcm	00000060 StaticInit<qindesign::network::MDNSClass>::StaticInit()
+00000068  w    F .text.itcm	0000000c TwoWire::available()
+00018414 g     F .text.itcm	000002c0 dns_gethostbyname_addrtype
+00029c30 g     F .text.itcm	00000020 systick_isr
+60002370 g     F .text.code	00000016 qindesign::security::RandomDevice::RandomDevice()
+2000ada0 g     O .bss	00000054 StaticInit<qindesign::network::EthernetClass>::buf
+0002eea4 g     F .text.itcm	00000064 __cxa_begin_cleanup
+0001d26c g     F .text.itcm	000000f8 tcp_listen_with_backlog_and_err
+60003450 g     F .text.code	000000e8 usb_init
+00026bd8  w    F .text.itcm	00000024 AsyncBasicResponse::~AsyncBasicResponse()
+000268ec g     F .text.itcm	00000004 AsyncWebServerResponse::_sourceValid() const
+00025fa4 g     F .text.itcm	000000e4 AsyncWebServerRequest::_addGetParams(String const&)
+20003c64  w    O .data	00000008 std::_Sp_make_shared_tag::_S_ti()::__tag
+6000fdf0 g     O .text.progmem	00000062 usb_config_descriptor_12
+00005c34 g     F .text.itcm	00000180 AsyncHTTPRequest::_onConnect(AsyncClient*)
+000050f4 g     F .text.itcm	0000001a AsyncServer::~AsyncServer()
+000213b4 g     F .text.itcm	0000005c sys_timeout
+00023788 g     F .text.itcm	00000080 ACAN_T4::readRxRegisters(CANMessage&)
+0002c68c  w    F .text.itcm	00000002 serialEvent6()
+00015e9c g     F .text.itcm	00000028 lfs_dir_rewind
+00001494  w    F .text.itcm	0000001c Autosteering::~Autosteering()
+20000000 g       .data	00000000 _sdata
+00038c44 g     F .text.itcm	000000cc strchr
+20008d40 g     O .data	00000004 __cxxabiv1::__terminate_handler
+2000c488 g     O .bss	00000004 systick_millis_count
+00036d20 g     F .text.itcm	00000022 .hidden ___Unwind_Backtrace
+00000b10 g     F .text.itcm	00000070 BNO080::waitForSPI()
+aaabffff g       *ABS*	00000000 _flexram_bank_config
+600025f0 g     F .text.code	00000748 CrashReportClass::printTo(Print&) const
+0002ea64 g     F .text.itcm	00000014 operator new(unsigned int, std::nothrow_t const&)
+0002b8a0 g     F .text.itcm	000000a8 delay
+20008d84 g     O .data	00000004 __atexit_recursive_mutex
+00005858 g     F .text.itcm	000001c0 AsyncHTTPRequest::_buildRequest()
+0003999c g     F .text.itcm	00000088 __register_exitproc
+00039ac4 g     F .text.itcm	0000020c _free_r
+20009400 g     O .data	000002c0 _VectorsRam
+0002f6dc g     F .text.itcm	00000010 __cxxabiv1::__terminate(void (*)())
+00021990 g     F .text.itcm	0000008c udp_sendto
+60002388 g     F .text.code	000000c4 trng_init
+0002296c g     F .text.itcm	0000002a TwoWire::write(unsigned char)
+00017b74 g     F .text.itcm	000000bc mdns_start_multicast_timeouts_ipv4
+0001cbf4 g     F .text.itcm	00000016 pbuf_ref
+00038ea4 g     F .text.itcm	00000030 strspn
+2000c494 g     O .bss	00000004 tcp_bound_pcbs
+000159c8 g     F .text.itcm	00000052 lfs_file_seek
+00001cfc g     F .text.itcm	00000038 responseGet(void*, AsyncHTTPRequest*, int)
+200093fa g     O .data	00000001 analog_write_res
+20008880 g     O .data	00000084 usb_descriptor_list
+000280d8 g     F .text.itcm	000000a8 AsyncAbstractResponse::_respond(AsyncWebServerRequest*)
+0002af18 g     F .text.itcm	0000000e String::operator=(String const&)
+0002eb5c g     F .text.itcm	00000008 std::bad_alloc::what() const
+00026d6c  w    F .text.itcm	00000026 Print::println(char const*)
+00026700 g     F .text.itcm	00000070 AsyncWebServerRequest::methodToString() const
+00005380 g     F .text.itcm	000000a4 xbuf::indexOf(char const*, unsigned int)
+20000000 g     O .data	00000280 endpoint_queue_head
+00022a40 g     F .text.itcm	00000108 TwoWire::force_clock()
+0002ec64 g     F .text.itcm	0000002a __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+0001d6f4 g     F .text.itcm	00000050 tcp_recv
+2000af60 g     O .bss	00000054 ACAN_T4::can2
+20005e68 g     O .data	0000000c memp_PBUF
+0002d894 g     F .text.itcm	00000050 usb_serial_write_buffer_free
+2000c300 g     O .bss	00000084 request
+0002d684 g     F .text.itcm	000000e0 usb_serial_read
+0002ebe8 g     F .text.itcm	0000001c __cxxabiv1::__class_type_info::~__class_type_info()
+0001659c g     F .text.itcm	000000c0 qindesign::network::EthernetClass::start()
+00025b4c g     F .text.itcm	0000003a AsyncWebServerRequest::hasParam(String const&, bool, bool) const
+000186e4 g     F .text.itcm	00000074 lwip_standard_chksum
+2000b2a4 g     O .bss	00000004 __malloc_max_total_mem
+20200000 g     O .bss.dma	00000140 memp_memory_UDP_PCB_base
+00018c08 g     F .text.itcm	00000044 autoip_network_changed_link_down
+2000930c g     O .data	0000000c __sglue
+2000b4f8 g     O .bss	000007b4 db
+0003a490 g     F .text.itcm	000000a4 fcvtbuf
+0000177c  w    F .text.itcm	0000001c LittleFSFile::seek(unsigned long long, int)
+0002adb0 g     F .text.itcm	0000000e String::~String()
+20003424 g     O .data	00000001 std::nothrow
+0002fae0 g     F .text.itcm	00000040 std::logic_error::~logic_error()
+0002b210 g     F .text.itcm	00000022 String::indexOf(String const&) const
+0000ab90  w    F .text.itcm	000003b4 ArduinoJson::V702PB2::detail::JsonSerializer<ArduinoJson::V702PB2::detail::Writer<File, void> >::result_type ArduinoJson::V702PB2::detail::VariantData::accept<ArduinoJson::V702PB2::detail::JsonSerializer<ArduinoJson::V702PB2::detail::Writer<File, void> > >(ArduinoJson::V702PB2::detail::JsonSerializer<ArduinoJson::V702PB2::detail::Writer<File, void> >&) const
+000013e8  w    F .text.itcm	00000016 std::_Function_handler<void (void*, AsyncHTTPRequest*, int), void (*)(void*, AsyncHTTPRequest*, int)>::_M_invoke(std::_Any_data const&, void*&&, AsyncHTTPRequest*&&, int&&)
+00001cac  w    F .text.itcm	00000016 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::removeFromBuffer()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+200035f8  w    O .data	0000005c vtable for LittleFSFile
+00001a44  w    F .text.itcm	00000020 StaticInit<qindesign::network::EthernetClass>::~StaticInit()
+00025bc0 g     F .text.itcm	00000058 AsyncWebServerRequest::addInterestingHeader(String const&)
+00029b58 g     F .text.itcm	00000074 EventResponder::clearEvent()
+00004c18 g     F .text.itcm	00000060 AsyncClient::_s_poll(void*, tcp_pcb*)
+200040d0 g     O .data	00000101 _ctype_
+00037d34 g     F .text.itcm	00000130 __sflush_r
+000385b8 g     F .text.itcm	00000028 printf
+20003544 g     O .data	00000011 typeinfo name for std::length_error
+00010d74  w    F .text.itcm	00000004 LittleFS_QSPIFlash::static_sync(lfs_config const*)
+00027898 g     F .text.itcm	000000b8 AsyncBasicResponse::AsyncBasicResponse(int, String const&, String const&)
+00023ec4  w    F .text.itcm	00000002 AsyncWebHandler::handleBody(AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)
+60000000 g     O .text.headers	00000200 FlexSPI_NOR_Config
+60002e3c  w    F .text.code	00000002 startup_middle_hook
+00010f3c  w    F .text.itcm	00000014 LittleFS::remove(char const*)
+2000aedc g     O .bss	00000004 EventResponder::lastInterrupt
+20009840 g     O .bss	00000020 endpoint0_transfer_data
+000380a0 g     F .text.itcm	0000000c __sfp_lock_release
+00035df0 g     F .text.itcm	00000000 .hidden __aeabi_drsub
+0002fb20 g     F .text.itcm	00000040 std::length_error::~length_error()
+0002b284 g     F .text.itcm	00000058 String::substring(unsigned int) const
+200093fd g     O .data	00000001 yield_active_check_flags
+00023808 g     F .text.itcm	00000066 ACAN_T4::message_isr_receive()
+20003798 g     O .data	00000040 vtable for AsyncAbstractResponse
+00025e28 g     F .text.itcm	000000e0 AsyncWebServerRequest::requestAuthentication(char const*, bool)
+0002f084 g     F .text.itcm	00000002 std::bad_exception::~bad_exception()
+00000f40 g     F .text.itcm	00000048 BNO080::dataAvailable()
+2000af08 g     O .bss	00000004 LittleFS_Program::baseaddr
+0002f8f4 g     F .text.itcm	0000007a __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+00038598 g     F .text.itcm	00000020 fwrite
+000069f4  w    F .text.itcm	000004e8 CANManager::CANManager(JsonDB*, unsigned char, unsigned char, bool)
+00016f88 g     F .text.itcm	00000058 mdns_domain_add_label
+00000b80 g     F .text.itcm	00000144 BNO080::getData(unsigned short)
+600032c4 g     F .text.code	0000005c usb_pll_start
+00011858 g     F .text.itcm	00000108 LittleFS_SPIFram::read(unsigned long, unsigned long, void*, unsigned long)
+00001738  w    F .text.itcm	00000018 LittleFSFile::position()
+0002f248 g     F .text.itcm	00000494 __gxx_personality_v0
+000159c0 g     F .text.itcm	00000004 lfs_file_read
+00004d84 g     F .text.itcm	0000006e AsyncClient::onAck(std::function<void (void*, AsyncClient*, unsigned int, unsigned long)>, void*)
+00002ab8  w    F .text.itcm	00000040 File::available()
+20206370 g     O .bss.dma	00000168 memp_memory_FRAG_PBUF_base
+0001afe8 g     F .text.itcm	00000034 igmp_start
+00005114  w    F .text.itcm	00000088 AsyncHTTPRequest::header::~header()
+00038058 g     F .text.itcm	0000003c __sinit
+00010d78  w    F .text.itcm	00000004 LittleFS_Program::static_sync(lfs_config const*)
+0001de9c g     F .text.itcm	00000178 tcp_abandon
+20000bb8 g     O .data	000000c8 __mprec_tens
+00025cb4 g     F .text.itcm	00000060 AsyncWebServerRequest::send(int, String const&, char const*, bool)
+00028830 g     F .text.itcm	00000070 AsyncWebServer::_rewriteRequest(AsyncWebServerRequest*)
+200038a4 g     O .data	00000020 vtable for xbuf
+00036cd8 g     F .text.itcm	00000022 .hidden _Unwind_Resume_or_Rethrow
+000387ac g     F .text.itcm	0000004a _vdprintf_r
+0002da68  w    F .text.itcm	00000002 serialEvent()
+0003c180 g     F .text.itcm	00001bd4 _vfprintf_r
+00010e74 g     F .text.itcm	00000008 LittleFS_Program::getMediaName()
+20005b38 g     O .data	00000004 ip_addr_broadcast
+00022b48 g     F .text.itcm	00000040 TwoWire::wait_idle()
+00025d14 g     F .text.itcm	0000002c AsyncWebServerRequest::send(int, String const&, String const&)
+00000304  w    F .text.itcm	00000110 SPIClass::beginTransaction(SPISettings)
+20008efc g     O .data	00000408 __malloc_av_
+00022204 g     F .text.itcm	00000028 enet_deinit
+0002c4e4 g     F .text.itcm	0000007a flexpwm_init
+6000fdec g     O .text.progmem	00000004 string0
+0001b5fc g     F .text.itcm	0000003c ip4_addr_isbroadcast_u32
+00001890  w    F .text.itcm	000001b4 ImuClassic::parse()
+00022104 g     F .text.itcm	00000100 enet_init
+600022d4 g     F .text.code	0000003e qindesign::network::EthernetClass::~EthernetClass()
+0002f99c g     F .text.itcm	00000002 std::type_info::~type_info()
+0002b334 g     F .text.itcm	0000011c String::replace(String const&, String const&)
+20003a14  w    O .data	0000001c vtable for std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>
+0003f010 g     F .text.itcm	000000aa __fputwc
+00003440  w    F .text.itcm	000000a8 File::dec_refcount()
+0001e05c g     F .text.itcm	000001ac tcp_alloc
+0001accc g     F .text.itcm	0000013c icmp_input
+200035ac g     O .data	0000000d typeinfo name for std::exception
+00028d8c g     F .text.itcm	00000092 AsyncWebServer::onNotFound(std::function<void (AsyncWebServerRequest*)>)
+20005e74 g     O .data	0000000c memp_PBUF_POOL
+00000414 g     F .text.itcm	00000044 BNO080::parseCommandReport()
+000208cc g     F .text.itcm	0000012c tcp_enqueue_flags
+0001c544 g     F .text.itcm	00000064 netif_set_up
+60002f40 g     F .text.code	00000384 configure_external_ram
+2000b2a8 g     O .bss	00000004 __malloc_top_pad
+000368e8 g     F .text.itcm	000002ae .hidden _Unwind_VRS_Pop
+00038e14 g     F .text.itcm	00000064 strncpy
+00021058 g     F .text.itcm	0000001e tcp_rexmit_rto_commit
+0001156c g     F .text.itcm	00000160 LittleFS_SPIFlash::prog(unsigned long, unsigned long, void const*, unsigned long)
+0002eb00 g     F .text.itcm	00000014 std::bad_function_call::~bad_function_call()
+00028810 g     F .text.itcm	00000004 AsyncWebServer::end()
+60002314 g     F .text.code	0000005c qindesign::network::MDNSClass::~MDNSClass()
+0001d19c g     F .text.itcm	000000d0 tcp_bind
+00000aa4 g     F .text.itcm	0000006c BNO080::waitForI2C()
+0001e574 g     F .text.itcm	00000020 tcp_next_iss
+0000b05c  w    F .text.itcm	000000b4 ArduinoJson::V702PB2::detail::VariantData* ArduinoJson::V702PB2::detail::ObjectData::getOrAddMember<ArduinoJson::V702PB2::detail::StaticStringAdapter>(ArduinoJson::V702PB2::detail::StaticStringAdapter, ArduinoJson::V702PB2::detail::ResourceManager*)
+2000b3e4 g     O .bss	00000004 __stdio_exit_handler
+20009820 g     O .bss	00000020 endpoint0_transfer_ack
+00021b38 g     F .text.itcm	00000034 udp_new
+00002258  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), Imu::setOffset()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00023694 g     F .text.itcm	00000034 ACAN_T4::tryToSendRemoteFrame(CANMessage const&)
+00036bd8 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Save_VFP_D_16_to_31
+0001665c g     F .text.itcm	00000080 qindesign::network::EthernetClass::begin(IPAddress const&, IPAddress const&, IPAddress const&, IPAddress const&)
+0001c66c g     F .text.itcm	00000050 netif_set_link_down
+0002d230  w    F .text.itcm	00000008 usb_serial_class::write(unsigned char const*, unsigned int)
+200038c4  w    O .data	0000000c vtable for ImuRvc
+00028f68 g     F .text.itcm	0000003e AsyncWebServer::~AsyncWebServer()
+2000c547 g     O .bss	00000001 usb_cdc_line_rtsdtr
+0002aff8 g     F .text.itcm	00000008 String::append(String const&)
+0002fbf0 g     F .text.itcm	00000080 std::logic_error::logic_error(char const*)
+00039470 g     F .text.itcm	00000002 __retarget_lock_init_recursive
+00003f34  w    F .text.itcm	0000018c JsonDB::printFile(char const*)
+0002ae58 g     F .text.itcm	00000026 String::String(char const*)
+00024b20 g     F .text.itcm	0000018a AsyncWebServerRequest::~AsyncWebServerRequest()
+00025160 g     F .text.itcm	00000064 AsyncWebServerRequest::_handleUploadByte(unsigned char, bool)
+0002b164 g     F .text.itcm	00000012 String::charAt(unsigned int) const
+00020a60 g     F .text.itcm	0000008c tcp_rexmit_rto_prepare
+000023d0  w    F .text.itcm	0000001c File::peek()
+00020cf8 g     F .text.itcm	00000360 tcp_output
+60003320 g     F .text.code	00000130 tempmon_init
+200039ec g     O .data	00000014 vtable for std::bad_exception
+0002307c g     F .text.itcm	0000003c ACAN_T4::ACAN_T4(unsigned long, ACAN_T4_Module)
+00015f30  w    F .text.itcm	00000016 EventResponder::triggerEvent(int, void*)
+20005e98 g     O .data	0000000c memp_TCP_PCB
+000297e8 g     F .text.itcm	000000aa md5_update
+00009a88  w    F .text.itcm	00000270 ArduinoJson::V702PB2::detail::enable_if<(!ArduinoJson::V702PB2::detail::IsVariant<int>::value)&&(!ArduinoJson::V702PB2::detail::is_array<int>::value), int>::type ArduinoJson::V702PB2::detail::operator|<int>(ArduinoJson::V702PB2::detail::MemberProxy<ArduinoJson::V702PB2::detail::MemberProxy<ArduinoJson::V702PB2::JsonDocument&, char const*>, char const*> const&, int const&)
+0002c698 g     F .text.itcm	00000180 unused_interrupt_vector
+0002c654 g     F .text.itcm	00000024 rtc_get
+20003038 g     O .data	00000070 SPIClass::spiclass_lpspi3_hardware
+00002298  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::saveSteerSettings()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00004ed4 g     F .text.itcm	00000076 AsyncClient::onTimeout(std::function<void (void*, AsyncClient*, unsigned long)>, void*)
+0002694c g     F .text.itcm	00000012 AsyncWebServerResponse::_respond(AsyncWebServerRequest*)
+2000b278 g     O .bss	00000028 __malloc_current_mallinfo
+0001d16c g     F .text.itcm	00000018 tcp_init
+00001530  w    F .text.itcm	00000038 LittleFSFile::getModifyTime(DateTimeFields&)
+2000b2ac g     O .bss	00000138 __sf
+00022f50 g     F .text.itcm	0000000e SimpleKalmanFilter::SimpleKalmanFilter(float, float, float)
+0002a8f8 g     F .text.itcm	00000028 Print::printNumber(unsigned long, unsigned char, unsigned char)
+0001b40c g     F .text.itcm	0000016c ip4_output_if_opt_src
+00023c90 g     F .text.itcm	00000164 ACAN_T4_Settings::ACAN_T4_Settings(unsigned long, unsigned long)
+0001c294 g     F .text.itcm	00000074 netif_remove_ext_callback
+00011ae0  w    F .text.itcm	00000006 LittleFS_SPIFram::static_prog(lfs_config const*, unsigned long, unsigned long, void const*, unsigned long)
+0001a2ac g     F .text.itcm	00000064 dhcp_fine_tmr
+00004564 g     F .text.itcm	0000000c AsyncServer::_s_accept(void*, tcp_pcb*, signed char)
+00029a18 g     F .text.itcm	00000074 base64_encode_chars
+000017b0  w    F .text.itcm	0000000c LittleFSFile::flush()
+200093cc g     O .data	00000014 tempFile
+000189f0 g     F .text.itcm	0000006e acd_netif_ip_addr_changed
+2000b008 g     O .bss	00000004 qindesign::network::MDNS
+2000b0dc g     O .bss	00000190 __atexit0
+00001480  w    F .text.itcm	00000014 LittleFSFile::write(void const*, unsigned int)
+0002d7a8 g     F .text.itcm	00000018 usb_serial_available
+0001c9e4 g     F .text.itcm	0000011c pbuf_alloc
+00011048  w    F .text.itcm	0000005c LittleFS::rename(char const*, char const*)
+00036bd0 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Restore_VFP_D_16_to_31
+000405c4 g       .ARM.exidx	00000000 __exidx_end
+2000c504 g     O .bss	00000004 usb_timer0_callback
+000042e0 g     F .text.itcm	0000003c AsyncUDPPacket::write(unsigned char)
+0002b194 g     F .text.itcm	00000036 String::getBytes(unsigned char*, unsigned int, unsigned int) const
+0001c0dc g     F .text.itcm	00000028 memp_malloc
+00015db4 g     F .text.itcm	000000e8 lfs_dir_read
+6000fdb0  w    O .text.progmem	00000001 _serialEventUSB2_default
+00027950 g     F .text.itcm	00000050 AsyncAbstractResponse::AsyncAbstractResponse(std::function<String (String const&)>)
+00026bd8  w    F .text.itcm	00000024 AsyncBasicResponse::~AsyncBasicResponse()
+00007354  w    F .text.itcm	00000298 CANManager::ISOReceive()
+0001c910 g     F .text.itcm	000000d4 pbuf_free
+000110a4  w    F .text.itcm	0000007c LittleFS::mkdir(char const*)
+0002ea58 g     F .text.itcm	0000000a __aeabi_atexit
+6000fdb6 g     O .text.progmem	00000001 _serialEvent4_default
+00023bc4 g     F .text.itcm	000000a8 ACAN_T4::message_isr_FD()
+20000320 g     O .data	00000870 .hidden __exp_data
+20003488 g     O .data	0000000c typeinfo for std::bad_alloc
+0002fb20 g     F .text.itcm	00000040 std::length_error::~length_error()
+00002d60 g     F .text.itcm	00000038 AsyncUDP::~AsyncUDP()
+200057ec g     O .data	00000006 ethzero
+2000356c g     O .data	00000016 typeinfo name for std::bad_function_call
+0003de4c g     F .text.itcm	00000018 __sprint_r
+00023ebc  w    F .text.itcm	00000002 AsyncWebHandler::handleRequest(AsyncWebServerRequest*)
+2000c430 g     O .bss	00000054 server
+200002d8  w    O .data	00000048 ArduinoJson::V702PB2::detail::FloatTraits<double, 8u>::positiveBinaryPowersOfTen()::factors
+00001274 g     F .text.itcm	00000036 BNO080::enableAccelerometer(unsigned short)
+2020d900 g       .bss.dma	00000000 _heap_start
+000384a4 g     F .text.itcm	00000046 _fwalk_sglue
+6000fdbc  w    O .text.progmem	00000016 usb_string_product_name
+00026960  w    F .text.itcm	00000004 usb_serial_class::available()
+00038110 g     F .text.itcm	00000086 _fputs_r
+0000519c g     F .text.itcm	00000106 AsyncHTTPRequest::~AsyncHTTPRequest()
+00007d84 g     F .text.itcm	00000140 handleUpload(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)
+000268f4 g     F .text.itcm	00000046 AsyncWebServerResponse::addHeader(String const&, String const&)
+000269a4  w    F .text.itcm	00000016 std::_Function_handler<void (AsyncWebHeader* const&), DefaultHeaders::DefaultHeaders()::{lambda(AsyncWebHeader*)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+6000fdb3 g     O .text.progmem	00000001 _serialEvent1_default
+00003b04  w    F .text.itcm	000000bc ArduinoJson::V702PB2::detail::StringBuilder::save()
+0001c21c g     F .text.itcm	00000078 netif_add_ext_callback
+0003a3a0 g     F .text.itcm	000000d4 __d2b
+0002b460 g     F .text.itcm	00000058 String::trim()
+000183c8 g     F .text.itcm	00000002 dns_init
+00007d48 g     F .text.itcm	0000003c checkUserWebAuth(AsyncWebServerRequest*)
+00002c20  w    F .text.itcm	00000034 LittleFSFile::~LittleFSFile()
+000251c4 g     F .text.itcm	00000986 AsyncWebServerRequest::_parseMultipartPostByte(unsigned char, bool)
+000238fc g     F .text.itcm	00000014 flexcan_isr_can3()
+00021ab8 g     F .text.itcm	00000028 udp_recv
+000040c0 g     F .text.itcm	00000024 AsyncUDP::AsyncUDP()
+00027548 g     F .text.itcm	00000194 AsyncWebServerResponse::_assembleHead(unsigned char)
+000069f4  w    F .text.itcm	000004e8 CANManager::CANManager(JsonDB*, unsigned char, unsigned char, bool)
+2000c500 g     O .bss	00000004 usb_cdc_line_rtsdtr_millis
+000031f4  w    F .text.itcm	000000b0 File::~File()
+0002dc30 g     F .text.itcm	0000000e fabsf
+00010f68  w    F .text.itcm	0000000c LittleFS::exists(char const*)
+0001a89c g     F .text.itcm	00000194 etharp_query
+00036cfc g     F .text.itcm	00000022 .hidden _Unwind_ForcedUnwind
+20008a68 g     O .data	00000004 F_CPU_ACTUAL
+0001e5b8 g     F .text.itcm	000000a4 tcp_netif_ip_addr_changed
+00021a8c g     F .text.itcm	0000002c udp_disconnect
+0000601c g     F .text.itcm	00000088 AsyncHTTPRequest::_onPoll(AsyncClient*)
+0002a384 g     F .text.itcm	0000000c IRQHandler_Serial2
+000228dc g     F .text.itcm	0000000c sys_now
+0002a304 g     F .text.itcm	0000000c IRQHandler_Serial1
+00004570 g     F .text.itcm	00000040 AsyncClient::connect(char const*, unsigned short)
+6000fdd4 g     O .text.progmem	00000018 usb_string_manufacturer_name_default
+20008d8c g     O .data	00000000 .hidden __dso_handle
+00039ea0 g     F .text.itcm	0000005c __i2b
+0002c850  w    F .text.itcm	00000006 _close
+00005424 g     F .text.itcm	00000086 xbuf::readString(int)
+00004b10 g     F .text.itcm	0000006a AsyncClient::_s_recv(void*, tcp_pcb*, pbuf*, signed char)
+00038094 g     F .text.itcm	0000000c __sfp_lock_acquire
+2000a528 g     O .bss	00000060 Serial7
+00027950 g     F .text.itcm	00000050 AsyncAbstractResponse::AsyncAbstractResponse(std::function<String (String const&)>)
+200037d8 g     O .data	00000040 vtable for AsyncCallbackResponse
+000241a0 g     F .text.itcm	0000007c requestDigestAuthentication(char const*)
+000183cc g     F .text.itcm	00000028 dns_setserver
+00006ee0  w    F .text.itcm	00000474 CANManager::VBusReceive()
+20206758 g     O .bss.dma	000004e0 memp_memory_TCP_PCB_base
+000085f4 g     F .text.itcm	00000514 listFiles(bool)
+000025e8  w    F .text.itcm	00000020 File::flush()
+0000483c g     F .text.itcm	000000b8 AsyncClient::_connected(std::shared_ptr<ACErrorTracker>&, void*, signed char)
+0002c560 g     F .text.itcm	000000f4 pwm_init
+00037c58 g     F .text.itcm	0000009c __utoa
+0002f0a8 g     F .text.itcm	00000008 __cxa_get_globals
+2000a3a8 g     O .bss	00000060 Serial3
+00018ad0 g     F .text.itcm	000000b8 autoip_start
+00001494  w    F .text.itcm	0000001c Autosteering::~Autosteering()
+20009304 g     O .data	00000004 __malloc_sbrk_base
+2000a408 g     O .bss	00000060 Serial4
+00038744 g     F .text.itcm	0000003e __swrite
+2000a2e8 g     O .bss	00000060 Serial1
+0001c308 g     F .text.itcm	00000054 netif_invoke_ext_callback
+000049ac g     F .text.itcm	00000164 AsyncClient::_recv(std::shared_ptr<ACErrorTracker>&, tcp_pcb*, pbuf*, signed char)
+60003538 g     F .text.code	00000054 _reboot_Teensyduino_
+00026b60  w    F .text.itcm	00000014 DefaultHeaders::~DefaultHeaders()
+2000a348 g     O .bss	00000060 Serial2
+00002d2c  w    F .text.itcm	00000034 JsonDB::~JsonDB()
+0003ee70 g     F .text.itcm	000000c6 _fclose_r
+60002530 g     F .text.code	00000058 TwoWire::setSCL(unsigned char)
+00000458 g     F .text.itcm	000001f4 BNO080::parseInputReport()
+00029da0 g     F .text.itcm	0000001a HardwareSerial::flush()
+0003a534 g     F .text.itcm	00000100 __ssprint_r
+20003818 g     O .data	0000003c vtable for AsyncWebServerResponse
+0002c240 g     F .text.itcm	000000dc flexpwmFrequency
+2000c508 g     O .bss	00000004 usb_timer1_callback
+00021338 g     F .text.itcm	0000007c sys_timeouts_init
+0000416c g     F .text.itcm	0000006c AsyncUDP::listen(ip4_addr*, unsigned short const&)
+2000aee8 g     O .bss	00000020 HardwareSerial::s_serials_with_serial_events
+60001680 g     F .text.code	00000058 LittleFS_QSPIFlash::getMediaName()
+00039cfc g     F .text.itcm	0000004c _Balloc
+2000c527 g     O .bss	00000001 HardwareSerial::s_count_serials_with_serial_events
+00026c60  w    F .text.itcm	00000040 AsyncAbstractResponse::~AsyncAbstractResponse()
+00023ec0  w    F .text.itcm	00000002 AsyncWebHandler::handleUpload(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)
+00026b74 g     F .text.itcm	00000050 AsyncWebServerResponse::~AsyncWebServerResponse()
+00009e68  w    F .text.itcm	00000814 JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#2}::operator()(ArduinoJson::V702PB2::JsonDocument&) const
+000288fc g     F .text.itcm	000002ec AsyncWebServer::on(char const*, unsigned char, std::function<void (AsyncWebServerRequest*)>, std::function<void (AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)>, std::function<void (AsyncWebServerRequest*, unsigned char*, unsigned int, unsigned int, unsigned int)>)
+0002ad48 g     F .text.itcm	0000003a String::String(String const&)
+600036c8 g       .text.code	00000000 __preinit_array_start
+0002b068 g     F .text.itcm	00000038 String::equals(String const&) const
+000276dc g     F .text.itcm	000000f4 AsyncWebServerResponse::AsyncWebServerResponse()
+00021ae0 g     F .text.itcm	00000058 udp_remove
+00020748 g     F .text.itcm	00000184 tcp_split_unsent_seg
+2000b2a0 g     O .bss	00000004 __malloc_max_sbrked_mem
+00023620 g     F .text.itcm	00000074 ACAN_T4::writeTxRegisters(CANMessage const&, unsigned long)
+20003900 g     O .data	00000020 vtable for AsyncUDP
+0002dbec g     F .text.itcm	00000044 sqrtf
+000061f8 g     F .text.itcm	000001d8 AsyncHTTPRequest::_collectHeaders()
+0002e674 g     F .text.itcm	0000014c __ieee754_atan2f
+00022e70 g     F .text.itcm	0000000c lpi2c1_isr()
+000093dc  w    F .text.itcm	00000060 StaticInit<qindesign::network::MDNSClass>::StaticInit()
+0002fc84  w    F .text.itcm	00000078 std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&)
+60059c00 g     O .text.csf	00000c00 hab_csf
+00022c84 g     F .text.itcm	00000140 TwoWire::requestFrom(unsigned char, unsigned char, unsigned char)
+00016c40 g     F .text.itcm	000000a0 mdns_resp_announce
+0002ac54 g     F .text.itcm	000000f4 makeTime(DateTimeFields const&)
+0002e1bc g     F .text.itcm	0000000c nanf
+000054ac g     F .text.itcm	00000038 xbuf::addSeg()
+20008a6c g     O .data	00000010 Serial
+00021a1c g     F .text.itcm	00000070 udp_connect
+2000adf8 g     O .bss	000000c8 StaticInit<qindesign::network::MDNSClass>::buf
+00035bd0 g     F .text.itcm	000000c4 __cxa_demangle
+0002b1cc g     F .text.itcm	00000020 String::indexOf(char) const
+00001750  w    F .text.itcm	0000002a LittleFSFile::available()
+00005110 g     F .text.itcm	00000004 AsyncServer::setNoDelay(bool)
+00022950  w    F .text.itcm	00000018 TwoWire::peek()
+00036c90 g     F .text.itcm	00000022 .hidden _Unwind_RaiseException
+00038784 g     F .text.itcm	00000020 __sseek
+00037090 g     F .text.itcm	00000018 calloc
+000400d0 g     F .text.itcm	00000028 fiprintf
+0002648c g     F .text.itcm	00000264 AsyncWebServerRequest::_onData(void*, unsigned int)
+6000fd10 g     O .text.progmem	00000050 TwoWire::i2c3_hardware
+0002c67c  w    F .text.itcm	00000002 serialEvent2()
+20206100 g     O .bss.dma	00000100 memp_memory_PBUF_base
+200096c0 g       .bss	00000000 _sbss
+000385e0 g     F .text.itcm	00000076 _putc_r
+0001a6f4 g     F .text.itcm	00000030 etharp_cleanup_netif
+00023ec8  w    F .text.itcm	00000004 AsyncWebHandler::isRequestHandlerTrivial()
+0002a8c0  w    F .text.itcm	0000001c _write
+00029b54 g     F .text.itcm	00000004 pendablesrvreq_isr
+2000c541 g     O .bss	00000001 tcp_active_pcbs_changed
+0002aeb0 g     F .text.itcm	0000002e String::String(unsigned long, unsigned char)
+00023e8c g     F .text.itcm	00000020 getCANRootClockFrequency()
+0002af78 g     F .text.itcm	0000007e String::append(char const*, unsigned int)
+2000b0ac  w    O .bss	00000010 std::string::_Rep::_S_empty_rep_storage
+00017454 g     F .text.itcm	0000000e mdns_multicast_timeout_25ttl_reset_ipv4
+00001834  w    F .text.itcm	0000005c DriverCytron::drive(float)
+00001458  w    F .text.itcm	00000020 std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>::_M_get_deleter(std::type_info const&)
+00011d68  w    F .text.itcm	00000006 LittleFS_QSPIFlash::static_prog(lfs_config const*, unsigned long, unsigned long, void const*, unsigned long)
+6000fdb4 g     O .text.progmem	00000001 _serialEvent2_default
+2000b0d8 g     O .bss	00000004 __atexit
+00036be0 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Restore_WMMXD
+2000c1b4 g     O .bss	00000018 ip_data
+000022b8  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::saveConfiguration()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+0002991c g     F .text.itcm	000000fc base64_encode_block
+000235d0 g     F .text.itcm	00000050 ACAN_T4::receive(CANMessage&)
+00010e54  w    F .text.itcm	00000020 LittleFS_QSPIFlash::static_read(lfs_config const*, unsigned long, unsigned long, void*, unsigned long)
+2000c4b4 g     O .bss	00000020 udpAutosteer
+0002bdd4 g     F .text.itcm	00000004 operator delete[](void*)
+0002fbf0 g     F .text.itcm	00000080 std::logic_error::logic_error(char const*)
+2000c498 g     O .bss	00000004 tcp_input_pcb
+20003a30 g     O .data	00000014 vtable for std::bad_alloc
+6000fdd4  w    O .text.progmem	00000018 usb_string_manufacturer_name
+600017b0 g     F .text.code	0000013c LittleFS_SPIFram::getMediaName()
+00028578  w    F .text.itcm	00000034 AsyncWebRewrite::~AsyncWebRewrite()
+0001d38c g     F .text.itcm	0000007c tcp_update_rcv_ann_wnd
+20005e80 g     O .data	0000000c memp_REASSDATA
+2000af0c g     O .bss	00000054 ACAN_T4::can1
+20000290  w    O .data	00000048 ArduinoJson::V702PB2::detail::FloatTraits<double, 8u>::negativeBinaryPowersOfTen()::factors
+00001398 g     F .text.itcm	00000002 AsyncUDPPacket::~AsyncUDPPacket()
+0002ed70 g     F .text.itcm	0000002e __cxa_allocate_exception
+00036d20 g     F .text.itcm	00000022 .hidden _Unwind_Backtrace
+000381b0 g     F .text.itcm	000002f4 __sfvwrite_r
+0002c874 g     F .text.itcm	00000004 Panic_Temp_isr
+0001b01c g     F .text.itcm	00000054 igmp_report_groups
+0002c688  w    F .text.itcm	00000002 serialEvent5()
+0002e9c8 g     F .text.itcm	00000030 .hidden __math_divzero
+60002588 g     F .text.code	00000068 TwoWire::begin()
+00002720  w    F .text.itcm	0000018c SensorADS1115Reader::update()
+0002294c g     F .text.itcm	00000004 qindesign::network::get_uint32(IPAddress const&)
+0000114c g     F .text.itcm	000000f0 BNO080::begin(unsigned char, TwoWire&, unsigned char)
+0001644c  w    F .text.itcm	00000020 EventResponder::~EventResponder()
+0002a8a4 g     F .text.itcm	0000001c Print::println()
+0001e014 g     F .text.itcm	00000006 tcp_abort
+00029c50 g     F .text.itcm	00000020 HardwareSerial::availableForWrite()
+0001b084 g     F .text.itcm	0000009c igmp_input
+00005a18 g     F .text.itcm	000000ec AsyncHTTPRequest::_send()
+00011d70 g     F .text.itcm	000000e0 LittleFS_QSPIFlash::erase(unsigned long)
+0002ae58 g     F .text.itcm	00000026 String::String(char const*)
+00036c68 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Restore_WMMXC
+0001d184 g     F .text.itcm	00000018 tcp_free
+00026bc4 g     F .text.itcm	00000014 AsyncWebServerResponse::~AsyncWebServerResponse()
+0002da6c g     F .text.itcm	0000004c sm_align_pool
+00028180 g     F .text.itcm	000000e4 AsyncCallbackResponse::AsyncCallbackResponse(String const&, unsigned int, std::function<unsigned int (unsigned char*, unsigned int, unsigned int)>, std::function<String (String const&)>)
+0002843c  w    F .text.itcm	00000046 AsyncCallbackWebHandler::handleRequest(AsyncWebServerRequest*)
+000116d4 g     F .text.itcm	0000017c LittleFS_SPIFlash::erase(unsigned long)
+0003de64 g     F .text.itcm	00000f8c _vfiprintf_r
+0000fa68  w    F .text.itcm	00000914 Position::Position(JsonDB*, AsyncUDP*, CANManager*, bool)
+0002d8e4 g     F .text.itcm	00000094 usb_serial_flush_output
+0002a0a8 g     F .text.itcm	0000001a HardwareSerial::addMemoryForWrite(void*, unsigned int)
+00037054 g     F .text.itcm	0000000a .hidden _Unwind_GetRegionStart
+0000a880  w    F .text.itcm	00000310 void ArduinoJson::V702PB2::detail::TextFormatter<ArduinoJson::V702PB2::detail::Writer<File, void> >::writeFloat<double>(double)
+000387f8 g     F .text.itcm	0000001c vdprintf
+00024cac g     F .text.itcm	000000cc AsyncWebServerRequest::_removeNotInterestingHeaders()
+000380ac g     F .text.itcm	00000064 fputc
+2000349c g     O .data	00000008 typeinfo for std::type_info
+0002d184 g     F .text.itcm	00000028 usb_transmit
+00001430 g     F .text.itcm	0000000e AsyncUDPPacket::~AsyncUDPPacket()
+20007f98 g     O .data	00000010 tcp_pcb_lists
+000166f0 g     F .text.itcm	00000034 qindesign::network::EthernetClass::waitForLocalIP(unsigned long) const
+60002e40  w    F .text.code	00000002 startup_late_hook
+00036cfc g     F .text.itcm	00000022 .hidden ___Unwind_ForcedUnwind
+000041d8 g     F .text.itcm	0000006c AsyncUDP::connect(ip4_addr*, unsigned short const&)
+200035dc  w    O .data	0000000c vtable for ImuClassic
+0001e3cc g     F .text.itcm	0000003c tcp_close
+0001b638 g     F .text.itcm	0000017c ip4addr_aton
+00022dc4 g     F .text.itcm	000000ac TwoWire::isr()
+20005764 g     O .data	00000006 ethbroadcast
+0001534c g     F .text.itcm	0000003c lfs_unmount
+000014c8  w    F .text.itcm	0000002e LittleFSFile::close()
+00001420  w    F .text.itcm	00000006 ArduinoJson::V702PB2::detail::DefaultAllocator::allocate(unsigned int)
+0001654c g     F .text.itcm	00000050 qindesign::network::EthernetClass::maybeStartDHCP()
+000045b0 g     F .text.itcm	00000078 AsyncClient::write(char const*, unsigned int, unsigned char)
+0003a474 g     F .text.itcm	0000001a __ascii_wctomb
+00002af8 g     F .text.itcm	00000030 xbuf::~xbuf()
+00005634 g     F .text.itcm	00000224 AsyncHTTPRequest::_parseURL(String const&)
+2000c548 g     O .bss	00000001 usb_configuration
+2000c537 g     O .bss	00000001 pbuf_free_ooseq_pending
+2000a1f8 g     O .bss	00000050 SPI
+00011484 g     F .text.itcm	000000e8 LittleFS_SPIFlash::wait(unsigned long)
+0002d08c g     F .text.itcm	00000064 usb_config_rx
+000023f0  w    F .text.itcm	000001f8 SensorCAN::update()
+000220a4 g     F .text.itcm	0000002c enet_get_mac
+00022094 g     F .text.itcm	00000010 enet_is_unknown
+0000064c g     F .text.itcm	0000012e BNO080::getRoll()
+00001408  w    F .text.itcm	00000002 std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>::~_Sp_counted_ptr_inplace()
+00010d54  w    F .text.itcm	00000016 LittleFS::totalSize()
+2000c4f8 g     O .bss	00000008 usb_cdc_line_coding
+00019eb8 g     F .text.itcm	00000128 dhcp_release_and_stop
+00001c94  w    F .text.itcm	00000016 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+00016794 g     F .text.itcm	00000026 qindesign::network::EthernetClass::linkStatus() const
+000170f0 g     F .text.itcm	00000074 mdns_build_host_domain
+0002bdd0 g     F .text.itcm	00000004 operator delete(void*)
+00028300  w    F .text.itcm	0000000a AsyncCallbackWebHandler::isRequestHandlerTrivial()
+00036094 g     F .text.itcm	00000022 .hidden __aeabi_i2d
+0002b138 g     F .text.itcm	0000002a String::endsWith(String const&) const
+0003707a g     F .text.itcm	00000006 .hidden _Unwind_GetTextRelBase
+00020c38 g     F .text.itcm	0000004e tcp_rst_netif
+0002eb78 g     F .text.itcm	0000001c std::bad_alloc::~bad_alloc()
+2000b274 g     O .bss	00000001 __lock___sfp_recursive_mutex
+00001708  w    F .text.itcm	00000016 LittleFSFile::name()
+0002f6ec g     F .text.itcm	00000014 std::terminate()
+00010d50  w    F .text.itcm	00000004 FS::mediaPresent()
+0002bdcc g     F .text.itcm	00000004 operator new[](unsigned int)
+00008b58 g     F .text.itcm	00000368 configureWebServer()
+000277d0 g     F .text.itcm	000000c8 AsyncBasicResponse::AsyncBasicResponse(int, String const&, char const*)
+2000a248 g     O .bss	00000050 SPI1
+0001d364 g     F .text.itcm	00000028 tcp_listen_with_backlog
+0000fa68  w    F .text.itcm	00000914 Position::Position(JsonDB*, AsyncUDP*, CANManager*, bool)
+00001428  w    F .text.itcm	00000006 ArduinoJson::V702PB2::detail::DefaultAllocator::deallocate(void*)
+0002a7f0 g     F .text.itcm	00000050 Print::write(unsigned char const*, unsigned int)
+2000a298 g     O .bss	00000050 SPI2
+20008a60 g     O .data	00000004 CrashReport
+0002b450 g     F .text.itcm	00000010 String::remove(unsigned int)
+000046e0 g     F .text.itcm	00000026 AsyncClient::close(bool)
+20005ea4 g     O .data	0000000c memp_TCP_PCB_LISTEN
+000216d4 g     F .text.itcm	0000010c udp_bind
+000013b8  w    F .text.itcm	00000004 ImuVoid::parse()
+000209f8 g     F .text.itcm	00000068 tcp_send_fin
+0002a0c4 g     F .text.itcm	000000d8 HardwareSerial::write9bit(unsigned long)
+00004b7c g     F .text.itcm	0000009c AsyncClient::_poll(std::shared_ptr<ACErrorTracker>&, tcp_pcb*)
+00011c78  w    F .text.itcm	00000006 LittleFS_SPIFram::static_erase(lfs_config const*, unsigned long)
+200061f0 g     O .data	0000002a pin_to_channel
+20003930 g     O .data	00000010 vtable for DriverIbt
+0002ad84 g     F .text.itcm	0000002a String::String(String&&)
+0002bae0 g     F .text.itcm	000000ec eepromemu_flash_write
+60001e54 g     F .text.code	000000c4 LittleFS::lowLevelFormat(char, Print*)
+00002198  w    F .text.itcm	00000020 std::_Function_handler<void (AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool), void (*)(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+000387a4 g     F .text.itcm	00000008 __sclose
+00002d98 g     F .text.itcm	00000040 AsyncUDP::~AsyncUDP()
+00017374 g     F .text.itcm	000000d0 mdns_write_domain
+00000074  w    F .text.itcm	0000001e TwoWire::read()
+2000a9a8  w    O .bss	00000004 guard variable for DefaultHeaders::Instance()::instance
+0002b178 g     F .text.itcm	0000001c String::operator[](unsigned int)
+0002f888 g     F .text.itcm	00000014 __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+00015ee4 g     F .text.itcm	00000006 lfs_fs_traverse
+00036c90 g     F .text.itcm	00000022 .hidden ___Unwind_RaiseException
+0002d764 g     F .text.itcm	00000044 usb_serial_peekchar
+0002277c g     F .text.itcm	0000000c qindesign::security::RandomDevice::instance()
+00009668  w    F .text.itcm	00000008 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), Imu::getOffset()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+00028718 g     F .text.itcm	000000e4 AsyncWebServer::AsyncWebServer(unsigned short)
+200035e8  w    O .data	00000010 vtable for DriverCytron
+00022634 g     F .text.itcm	000000b8 ethernet_input
+0002ef78 g     F .text.itcm	0000007c __cxa_begin_catch
+00001404  w    F .text.itcm	00000002 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::removeFromBuffer()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+0002b4b8 g     F .text.itcm	0000000a String::toInt() const
+20003920  w    O .data	00000010 vtable for DriverCAN
+00029c70 g     F .text.itcm	00000026 HardwareSerial::available()
+00025d40 g     F .text.itcm	000000e8 AsyncWebServerRequest::send(String const&, unsigned int, std::function<unsigned int (unsigned char*, unsigned int, unsigned int)>, std::function<String (String const&)>)
+0001bf94 g     F .text.itcm	00000002 mem_init
+00004c78 g     F .text.itcm	0000005a AsyncClient::_dns_found(ip4_addr*)
+00018c04 g     F .text.itcm	00000002 autoip_network_changed_link_up
+2000394c  w    O .data	0000000c vtable for SensorCAN
+20008d90 g     O .data	0000016c __global_locale
+000226ec g     F .text.itcm	00000090 ethernet_output
+000075ec  w    F .text.itcm	000001e4 CANManager::KReceive()
+0002aeb0 g     F .text.itcm	0000002e String::String(unsigned long, unsigned char)
+600022c4 g     F .text.code	0000000e qindesign::network::EthernetClass::EthernetClass()
+0002a88c g     F .text.itcm	00000016 Print::print(long)
+202062e0 g     O .bss.dma	00000090 memp_memory_IGMP_GROUP_base
+00004fd8 g     F .text.itcm	00000024 AsyncServer::AsyncServer(unsigned short)
+0002eb50 g     F .text.itcm	0000000c std::_Sp_make_shared_tag::_S_eq(std::type_info const&)
+200035cc  w    O .data	00000010 vtable for DriverKeya
+00023ef8  w    F .text.itcm	00000034 AsyncWebHandler::~AsyncWebHandler()
+0001b120 g     F .text.itcm	0000009c igmp_leavegroup_netif
+0002eb30 g     F .text.itcm	00000020 std::__throw_bad_function_call()
+00038198 g     F .text.itcm	00000018 fputs
+0001ce80 g     F .text.itcm	000000a8 pbuf_take
+00028be8 g     F .text.itcm	000001a4 AsyncWebServer::on(char const*, unsigned char, std::function<void (AsyncWebServerRequest*)>)
+00015b4c g     F .text.itcm	000001a4 lfs_mkdir
+00035cd0 g     F .text.itcm	0000001e __cxa_call_terminate
+00004244 g     F .text.itcm	00000066 AsyncUDP::writeTo(unsigned char const*, unsigned int, ip4_addr*, unsigned short const&)
+00039478 g     F .text.itcm	00000002 __retarget_lock_acquire_recursive
+00036b98 g     F .text.itcm	00000018 .hidden restore_core_regs
+0002d22c  w    F .text.itcm	00000004 usb_serial_class::availableForWrite()
+2000a5e8 g     O .bss	00000140 Wire
+600036c8 g       .text.code	00000000 __init_array_start
+0002eda0 g     F .text.itcm	00000020 __cxa_free_exception
+00023b4c g     F .text.itcm	00000078 ACAN_T4::message_isr_receiveFD(unsigned long)
+000370a8 g     F .text.itcm	00000078 _calloc_r
+2000b00c g     O .bss	00000004 qindesign::network::Ethernet
+000050c4 g     F .text.itcm	00000030 AsyncServer::end()
+200038d0  w    O .data	0000000c vtable for ImuVoid
+6000fdb1  w    O .text.progmem	00000001 _serialEventUSB1_default
+000054e4 g     F .text.itcm	00000068 xbuf::write(unsigned char const*, unsigned int)
+000268f0 g     F .text.itcm	00000004 AsyncWebServerResponse::_ack(AsyncWebServerRequest*, unsigned int, unsigned long)
+0001878c g     F .text.itcm	00000060 acd_add
+000048f4 g     F .text.itcm	00000062 AsyncClient::_s_connected(void*, void*, signed char)
+0002eb14 g     F .text.itcm	0000001c std::bad_function_call::~bad_function_call()
+0002eaf8 g     F .text.itcm	00000008 std::bad_function_call::what() const
+0000431c g     F .text.itcm	00000044 AsyncUDP::write(unsigned char)
+00037d20 g     F .text.itcm	00000014 tolower
+00003bc0  w    F .text.itcm	00000374 ArduinoJson::V702PB2::detail::parseNumber(char const*, ArduinoJson::V702PB2::detail::VariantData&)
+00036b98 g     F .text.itcm	00000018 .hidden __restore_core_regs
+00036d9c g     F .text.itcm	0000028a .hidden __gnu_unwind_execute
+0001c5fc g     F .text.itcm	00000070 netif_set_link_up
+00011c80 g     F .text.itcm	000000e8 LittleFS_QSPIFlash::prog(unsigned long, unsigned long, void const*, unsigned long)
+00004e64 g     F .text.itcm	0000006e AsyncClient::onData(std::function<void (void*, AsyncClient*, void*, unsigned int)>, void*)
+000229d4  w    F .text.itcm	0000006c TwoWire::TwoWire(IMXRT_LPI2C_t*, TwoWire::I2C_Hardware_t const&)
+200096c0 g     O .data	00000000 .hidden __TMC_END__
+00003630  w    F .text.itcm	00000012 std::_Function_base::~_Function_base()
+000227d8 g     F .text.itcm	00000020 trng_is_started
+20003474 g     O .data	0000000c typeinfo for std::bad_function_call
+00011850  w    F .text.itcm	00000006 LittleFS_SPIFlash::static_erase(lfs_config const*, unsigned long)
+2000c4d4 g     O .bss	00000020 udpNtrip
+00017c30 g     F .text.itcm	0000004c mdns_multicast_probe_timeout_reset_ipv4
+20003584  w    O .data	00000018 typeinfo name for std::_Sp_make_shared_tag
+00036498 g     F .text.itcm	00000010 .hidden __gnu_Unwind_ForcedUnwind
+00001478  w    F .text.itcm	00000008 ArduinoJson::V702PB2::detail::DefaultAllocator::reallocate(void*, unsigned int)
+0001cc0c g     F .text.itcm	00000088 pbuf_cat
+20005e50 g     O .data	0000000c memp_FRAG_PBUF
+000166dc g     F .text.itcm	00000014 qindesign::network::EthernetClass::begin(IPAddress const&, IPAddress const&, IPAddress const&)
+00026894  w    F .text.itcm	00000004 AsyncAbstractResponse::_sourceValid() const
+00001378  w    F .text.itcm	00000012 LittleFSFile::isOpen()
+0001bf98 g     F .text.itcm	00000002 mem_trim
+00036cb4 g     F .text.itcm	00000022 .hidden ___Unwind_Resume
+00039efc g     F .text.itcm	0000015c __multiply
+0002b0a0 g     F .text.itcm	0000002c String::equals(char const*) const
+0003a058 g     F .text.itcm	000000c0 __pow5mult
+00028180 g     F .text.itcm	000000e4 AsyncCallbackResponse::AsyncCallbackResponse(String const&, unsigned int, std::function<unsigned int (unsigned char*, unsigned int, unsigned int)>, std::function<String (String const&)>)
+0002d598 g     F .text.itcm	000000ec usb_serial_configure
+2000aee0 g     O .bss	00000004 EventResponder::firstInterrupt
+0000af44  w    F .text.itcm	00000118 ArduinoJson::V702PB2::detail::JsonSerializer<ArduinoJson::V702PB2::detail::Writer<File, void> >::visit(ArduinoJson::V702PB2::detail::ObjectData const&)
+0002d87c g     F .text.itcm	00000018 usb_serial_write
+000248f8 g     F .text.itcm	00000228 AsyncWebServerRequest::AsyncWebServerRequest(AsyncWebServer*, AsyncClient*)
+00001720  w    F .text.itcm	00000018 LittleFSFile::size()
+200054b0 g     O .data	00000004 dns_mquery_v4group
+6000fdb7 g     O .text.progmem	00000001 _serialEvent5_default
+00000009 g       *ABS*	00000000 _itcm_block_count
+00021410 g     F .text.itcm	00000054 sys_untimeout
+00001a64  w    F .text.itcm	00000020 StaticInit<qindesign::network::MDNSClass>::~StaticInit()
+00009570  w    F .text.itcm	000000f8 Imu::getOffset()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}::operator()(ArduinoJson::V702PB2::JsonDocument&) const
+00024d78 g     F .text.itcm	00000084 strContains(String, String, bool)
+0002f708 g     F .text.itcm	00000014 std::unexpected()
+000376a0 g     F .text.itcm	0000000c __malloc_lock
+200050fc g     O .data	00000370 digital_pin_to_info_PGM
+000029f0 g     F .text.itcm	0000002e xbuf::flush()
+20003940 g     O .data	0000000c vtable for IPAddress
+000052a4 g     F .text.itcm	000000dc xbuf::read(unsigned char*, unsigned int)
+0002b9f0 g     F .text.itcm	00000024 digitalRead
+20005e8c g     O .data	0000000c memp_SYS_TIMEOUT
+000268b4 g     F .text.itcm	0000000a AsyncWebServerResponse::setContentLength(unsigned int)
+60001654 g     F .text.code	0000002c LittleFS_RAM::getMediaName()
+60001d18 g     F .text.code	0000004c LittleFS::quickFormat()
+00025c18 g     F .text.itcm	0000009a AsyncWebServerRequest::send(AsyncWebServerResponse*)
+6000fec4 g       *ABS*	00000000 _stextload
+00037d04 g     F .text.itcm	0000000a fcvtf
+000116cc  w    F .text.itcm	00000006 LittleFS_SPIFlash::static_prog(lfs_config const*, unsigned long, unsigned long, void const*, unsigned long)
+00002100  w    F .text.itcm	00000036 std::_Function_handler<void (AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool), void (*)(AsyncWebServerRequest*, String, unsigned int, unsigned char*, unsigned int, bool)>::_M_invoke(std::_Any_data const&, AsyncWebServerRequest*&&, String&&, unsigned int&&, unsigned char*&&, unsigned int&&, bool&&)
+0002a728 g     F .text.itcm	00000048 IPAddress::printTo(Print&) const
+200093fc g     O .data	00000001 isWebServerOn
+0002c684  w    F .text.itcm	00000002 serialEvent4()
+0002fadc g     F .text.itcm	00000004 std::runtime_error::what() const
+00037130 g     F .text.itcm	00000010 free
+0000140c  w    F .text.itcm	00000002 std::_Sp_counted_ptr_inplace<ACErrorTracker, std::allocator<ACErrorTracker>, (__gnu_cxx::_Lock_policy)0>::_M_dispose()
+20005c64 g     O .data	00000040 lwip_cyclic_timers
+60002d38 g     F .text.code	00000050 CrashReportClass::clear()
+0000136c  w    F .text.itcm	00000002 Print::flush()
+0002fb60 g     F .text.itcm	00000048 std::logic_error::~logic_error()
+000063d0 g     F .text.itcm	00000170 AsyncHTTPRequest::_onData(void*, unsigned int)
+0002f080 g     F .text.itcm	00000002 std::exception::~exception()
+00039e40 g     F .text.itcm	00000060 __lo0bits
+00035df8 g     F .text.itcm	0000027a .hidden __subdf3
+20200140 g     O .bss.dma	00005fc0 memp_memory_PBUF_POOL_base
+00037080 g     F .text.itcm	00000008 atoi
+00002278  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::saveSteerConfiguration()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+0002fadc g     F .text.itcm	00000004 std::logic_error::what() const
+6000fe54 g     O .text.progmem	00000062 usb_config_descriptor_480
+0002eb64 g     F .text.itcm	00000014 std::bad_alloc::~bad_alloc()
+60001d64 g     F .text.code	000000f0 LittleFS::formatUnused(unsigned long, unsigned long)
+0000c158  w    F .text.itcm	000005b4 JsonDB::saveSteerConfiguration()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}::operator()(ArduinoJson::V702PB2::JsonDocument&) const
+00015974 g     F .text.itcm	00000046 lfs_file_close
+00002608 g     F .text.itcm	00000094 notFound(AsyncWebServerRequest*)
+000210c8 g     F .text.itcm	0000005c tcp_keepalive
+00025f08 g     F .text.itcm	0000009c AsyncWebServerRequest::urlDecode(String const&) const
+0002aee0 g     F .text.itcm	00000038 String::String(float, unsigned char)
+2000a728 g     O .bss	00000140 Wire1
+00035dfc g     F .text.itcm	00000276 .hidden __adddf3
+00037e64 g     F .text.itcm	00000054 _fflush_r
+0002d978  w    F .text.itcm	000000f0 yield
+00010d6c  w    F .text.itcm	00000004 LittleFS_SPIFlash::static_sync(lfs_config const*)
+0001646c g     F .text.itcm	00000074 qindesign::network::EthernetClass::netifEventFunc(netif*, unsigned short, netif_ext_callback_args_t const*)
+00002238  w    F .text.itcm	00000020 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), Imu::getOffset()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+0002f818 g     F .text.itcm	0000006e __cxa_rethrow
+00000a2c g     F .text.itcm	0000003a BNO080::getAccelY()
+0002adb0 g     F .text.itcm	0000000e String::~String()
+2000a868 g     O .bss	00000140 Wire2
+00039820 g     F .text.itcm	00000000 memchr
+20008a64 g     O .data	00000004 F_BUS_ACTUAL
+0001cb00 g     F .text.itcm	000000dc pbuf_realloc
+000364a8 g     F .text.itcm	00000044 .hidden __gnu_Unwind_Resume
+200034e8 g     O .data	00000024 typeinfo name for __cxxabiv1::__foreign_exception
+6000fdbc g     O .text.progmem	00000016 usb_string_product_name_default
+0002630c g     F .text.itcm	00000180 AsyncWebServerRequest::_parsePlainPostChar(unsigned char)
+00004664 g     F .text.itcm	0000007c AsyncClient::_close()
+0002bdd8 g     F .text.itcm	00000004 operator delete(void*, unsigned int)
+00038720 g     F .text.itcm	00000022 __sread
+000285e8  w    F .text.itcm	00000068 AsyncCallbackWebHandler::~AsyncCallbackWebHandler()
+60002e3c g     F .text.code	00000002 startup_default_middle_hook
+0002689c  w    F .text.itcm	0000000a AsyncCallbackResponse::_sourceValid() const
+200096c0 g       .data	00000000 _edata
+000297b8 g     F .text.itcm	00000030 md5_starts
+00020bf8 g     F .text.itcm	0000003e tcp_rst
+000159bc g     F .text.itcm	00000004 lfs_file_sync
+0000506c g     F .text.itcm	00000058 AsyncServer::begin()
+00001410  w    F .text.itcm	00000010 StaticInit<qindesign::security::RandomDevice>::~StaticInit()
+0002c678  w    F .text.itcm	00000002 serialEvent1()
+0001881c g     F .text.itcm	00000010 acd_network_changed_link_down
+00001574  w    F .text.itcm	00000194 LittleFSFile::openNextFile(unsigned char)
+0002fba8 g     F .text.itcm	00000048 std::length_error::~length_error()
+00026ca0  w    F .text.itcm	00000050 AsyncCallbackResponse::~AsyncCallbackResponse()
+00036c7c g     F .text.itcm	00000000 .hidden __gnu_Unwind_Save_WMMXC
+2000c428 g     O .bss	00000004 scale_cpu_cycles_to_microseconds
+00026d94 g     F .text.itcm	0000023c AsyncBasicResponse::_ack(AsyncWebServerRequest*, unsigned int, unsigned long)
+00027898 g     F .text.itcm	000000b8 AsyncBasicResponse::AsyncBasicResponse(int, String const&, String const&)
+6000fdb5 g     O .text.progmem	00000001 _serialEvent3_default
+00039428 g     F .text.itcm	00000048 __libc_init_array
+0002c818  w    F .text.itcm	00000034 _sbrk
+000012ac g     F .text.itcm	00000084 DriverIbt::drive(float)
+0001cfd8 g     F .text.itcm	00000020 pbuf_try_get_at
+00022234 g     F .text.itcm	000001d0 enet_proc_input
+00036510 g     F .text.itcm	0000002e .hidden _Unwind_VRS_Get
+20003654 g     O .data	00000020 vtable for AsyncUDPPacket
+00039374 g     F .text.itcm	0000002c _lseek_r
+0001c7cc g     F .text.itcm	00000070 pbuf_add_header
+0001cfbc g     F .text.itcm	0000001c pbuf_get_at
+00036cb4 g     F .text.itcm	00000022 .hidden _Unwind_Resume
+00021464 g     F .text.itcm	00000080 sys_check_timeouts
+0000123c g     F .text.itcm	00000036 BNO080::enableGameRotationVector(unsigned short)
+0001511c g     F .text.itcm	000000d8 lfs_format
+0002c694  w    F .text.itcm	00000002 serialEvent8()
+00037d10 g     F .text.itcm	00000010 isspace
+00004f4c g     F .text.itcm	00000076 AsyncClient::onPoll(std::function<void (void*, AsyncClient*)>, void*)
+0002ae80 g     F .text.itcm	0000002e String::String(unsigned int, unsigned char)
+0000138c  w    F .text.itcm	0000000a LittleFSFile::isDirectory()
+0002ca5c g     F .text.itcm	00000630 usb_isr
+0001aa30 g     F .text.itcm	0000018c etharp_output
+00036094 g     F .text.itcm	00000022 .hidden __floatsidf
+20003534 g     O .data	00000010 typeinfo name for std::logic_error
+0002f090 g     F .text.itcm	0000000e std::bad_exception::~bad_exception()
+00004708 g     F .text.itcm	000000ba AsyncClient::~AsyncClient()
+00023c6c g     F .text.itcm	00000024 MBCount(ACAN_T4FD_Settings::Payload)
+2000afb4 g     O .bss	00000054 ACAN_T4::can3
+00001400  w    F .text.itcm	00000002 std::_Function_handler<void (ArduinoJson::V702PB2::JsonDocument&), JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}>::_M_invoke(std::_Any_data const&, ArduinoJson::V702PB2::JsonDocument&)
+00022968  w    F .text.itcm	00000002 TwoWire::flush()
+0002e9a8 g     F .text.itcm	00000010 .hidden __math_uflow
+00001350 g     F .text.itcm	00000018 DriverIbt::DriverIbt(unsigned char, unsigned char, unsigned char)
+0001cbdc g     F .text.itcm	00000018 pbuf_clen
+0002f9a4 g     F .text.itcm	0000002c std::type_info::operator==(std::type_info const&) const
+0001d744 g     F .text.itcm	00000050 tcp_sent
+00015824 g     F .text.itcm	0000002a lfs_stat
+2000ad9c g     O .bss	00000004 StaticInit<qindesign::network::EthernetClass>::nifty_counter
+0002dab8 g     F .text.itcm	00000084 sm_set_pool
+0002ea18 g     F .text.itcm	00000012 .hidden __math_check_uflow
+000183f4 g     F .text.itcm	0000001e dns_tmr
+00002e44  w    F .text.itcm	000001a8 DriverKeya::drive(float)
+00037088 g     F .text.itcm	00000008 atol
+0002f71c g     F .text.itcm	00000010 std::get_terminate()
+0002eb94 g     F .text.itcm	00000034 __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+000055c4 g     F .text.itcm	00000070 AsyncHTTPRequest::AsyncHTTPRequest()
+0001a660 g     F .text.itcm	00000094 etharp_tmr
+60001624 g     F .text.code	00000030 ResetHandler
+00017c7c g     F .text.itcm	0000003a lwip_strnicmp
+0002fc70 g     F .text.itcm	00000014 std::length_error::length_error(char const*)
+000047c4 g     F .text.itcm	00000078 AsyncClient::_error(signed char)
+0001cc94 g     F .text.itcm	0000001a pbuf_chain
+20000c80 g     O .data	00001048 .hidden __pow_log_data
+0002ebd4 g     F .text.itcm	00000014 __cxxabiv1::__class_type_info::~__class_type_info()
+60050488 g       *ABS*	00000000 _sdataload
+0002d830 g     F .text.itcm	00000020 usb_serial_getchar
+0000a684  w    F .text.itcm	00000134 JsonDB::begin(FS&, bool)::{lambda(ArduinoJson::V702PB2::JsonDocument&)#4}::operator()(ArduinoJson::V702PB2::JsonDocument&) const
+600022d4 g     F .text.code	0000003e qindesign::network::EthernetClass::~EthernetClass()
+00023ecc  w    F .text.itcm	0000002c AsyncWebHandler::~AsyncWebHandler()
+00005114  w    F .text.itcm	00000088 AsyncHTTPRequest::header::~header()
+2000aee4 g     O .bss	00000004 EventResponder::lastYield
+00011358  w    F .text.itcm	00000018 LittleFS::format(int, char, Print&)
+00021124 g     F .text.itcm	000000c4 tcp_zero_window_probe
+0001d660 g     F .text.itcm	00000020 tcp_setprio
+000268c0 g     F .text.itcm	0000000c AsyncWebServerResponse::_started() const
+200099e0 g     O .bss	00000810 aog
+000279a0 g     F .text.itcm	00000060 AsyncAbstractResponse::_readDataFromCacheOrContent(unsigned char*, unsigned int)
+000386e0 g     F .text.itcm	00000040 sprintf
+0002ede8 g     F .text.itcm	00000000 __cxa_end_cleanup
+00023c90 g     F .text.itcm	00000164 ACAN_T4_Settings::ACAN_T4_Settings(unsigned long, unsigned long)
+000239b8 g     F .text.itcm	000000d0 ACAN_T4::writeTxRegistersFD(CANFDMessage const&, unsigned long volatile*)
+00017cb8 g     F .text.itcm	00000090 lwip_itoa
+000167e0 g     F .text.itcm	00000006 qindesign::network::EthernetClass::setDNSServerIP(IPAddress const&) const
+0002f99c g     F .text.itcm	00000002 std::type_info::~type_info()
+000017d8  w    F .text.itcm	00000040 DriverKeya::disengage()
+00019fe0 g     F .text.itcm	0000009c dhcp_start
+0001ce14 g     F .text.itcm	0000006c pbuf_copy_partial
+0002bc94 g     F .text.itcm	00000134 memcpy
+6000fdb9 g     O .text.progmem	00000001 _serialEvent7_default
+60002150 g     F .text.code	00000100 LittleFS_Program::begin(unsigned long)
+0001abbc g     F .text.itcm	00000030 etharp_acd_probe
+0002aa84  w    F .text.itcm	00000004 usb_serial_class::peek()
+0002f970 g     F .text.itcm	0000002a __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+0002f788 g     F .text.itcm	00000058 __cxa_init_primary_exception
+000050f4 g     F .text.itcm	0000001a AsyncServer::~AsyncServer()
+0002f72c g     F .text.itcm	00000010 std::get_unexpected()
+00008ec0 g     F .text.itcm	00000070 setServerMode()
+00001568  w    F .text.itcm	0000000c LittleFSFile::rewindDirectory()
+60002370 g     F .text.code	00000016 qindesign::security::RandomDevice::RandomDevice()
+0002adf0 g     F .text.itcm	00000066 String::copy(char const*, unsigned int)
+0002be40 g     F .text.itcm	0000034c dtostrf
+000240dc g     F .text.itcm	000000c4 checkBasicAuthentication(char const*, char const*, char const*)
+000026e4  w    F .text.itcm	00000038 File::write(unsigned char const*, unsigned int)
+000376ac g     F .text.itcm	0000000c __malloc_unlock
+00022f60 g     F .text.itcm	0000005e SimpleKalmanFilter::updateEstimate(float)
+00015850 g     F .text.itcm	00000094 lfs_getattr
+000055c4 g     F .text.itcm	00000070 AsyncHTTPRequest::AsyncHTTPRequest()
+2000c1cc g     O .bss	000000cc lfs
+20206678 g     O .bss.dma	000000e0 memp_memory_TCP_PCB_LISTEN_base
+0002fcfc  w    F .text.itcm	00000004 std::string::_Rep::_M_destroy(std::allocator<char> const&)
+0002ec48 g     F .text.itcm	0000001a __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+200039b0  w    O .data	00000014 vtable for ArduinoJson::V702PB2::detail::DefaultAllocator
+000365a4 g     F .text.itcm	00000084 .hidden __gnu_Unwind_Backtrace
+00035dfc g     F .text.itcm	00000276 .hidden __aeabi_dadd
+000014f8  w    F .text.itcm	00000038 LittleFSFile::getCreateTime(DateTimeFields&)
+0002e7c0 g     F .text.itcm	000001ac atanf
+0002c690  w    F .text.itcm	00000002 serialEvent7()
+0003610c g     F .text.itcm	0000005a .hidden __aeabi_l2d
+0001c1bc g     F .text.itcm	00000002 netif_init
+000288a0 g     F .text.itcm	0000005c AsyncWebServer::_attachHandler(AsyncWebServerRequest*)
+0001afc8 g     F .text.itcm	00000020 igmp_init
+00004628 g     F .text.itcm	0000003c AsyncClient::add(char const*, unsigned int, unsigned char)
+000398c0 g     F .text.itcm	000000dc strlen
+60002250 g     F .text.code	00000074 qindesign::network::EthernetClass::EthernetClass(unsigned char const*)
+00008f30 g     F .text.itcm	000004ac loop
+60002de4 g     F .text.code	00000054 analog_init
+00016b9c g     F .text.itcm	000000a4 mdns_resp_remove_netif
+00004df4 g     F .text.itcm	0000006e AsyncClient::onError(std::function<void (void*, AsyncClient*, signed char)>, void*)
+0002f9d0 g     F .text.itcm	0000010c __gnu_cxx::__verbose_terminate_handler()
+0000be58  w    F .text.itcm	000002f8 JsonDB::saveSteerSettings()::{lambda(ArduinoJson::V702PB2::JsonDocument&)#1}::operator()(ArduinoJson::V702PB2::JsonDocument&) const
+200036c8  w    O .data	00000014 vtable for AsyncWebRewrite
+00019ca4 g     F .text.itcm	00000060 dhcp_network_changed_link_up
+00039e00 g     F .text.itcm	00000040 __hi0bits
+20005b34 g     O .data	00000004 ip_addr_any
+60002d88 g     F .text.code	0000005c CrashReportClass::operator bool()
+00037c3c g     F .text.itcm	0000001c strtol
+0002ae80 g     F .text.itcm	0000002e String::String(unsigned int, unsigned char)
+000287fc g     F .text.itcm	00000014 AsyncWebServer::begin()
+000400f8 g     F .text.itcm	00000106 _wcsnrtombs_l
+200036e8 g     O .data	00000034 vtable for LittleFS_Program
+00036bb0 g     F .text.itcm	00000000 .hidden __gnu_Unwind_Restore_VFP
+60002e40 g     F .text.code	00000002 startup_default_late_hook
+202064d8 g     O .bss.dma	000000a0 memp_memory_REASSDATA_base
+000031f4  w    F .text.itcm	000000b0 File::~File()
+00028348  w    F .text.itcm	000000f4 AsyncCallbackWebHandler::canHandle(AsyncWebServerRequest*)
+0002a19c g     F .text.itcm	00000004 HardwareSerial::write(unsigned char)
+0002b03c g     F .text.itcm	00000010 operator+(StringSumHelper const&, String const&)
+000077d0  w    F .text.itcm	00000190 DriverCAN::sendCan(float, bool)
+0001ce04 g     F .text.itcm	00000010 pbuf_copy
+0000519c g     F .text.itcm	00000106 AsyncHTTPRequest::~AsyncHTTPRequest()
+00029bcc g     F .text.itcm	00000064 EventResponder::detachNoInterrupts()
+60002314 g     F .text.code	0000005c qindesign::network::MDNSClass::~MDNSClass()
+00005b0c g     F .text.itcm	00000128 AsyncHTTPRequest::_processChunks()
+00018764 g     F .text.itcm	00000026 lwip_init
+20008d6c  w    O .data	00000018 ArduinoJson::V702PB2::DeserializationError::c_str() const::messages
+0002aee0 g     F .text.itcm	00000038 String::String(float, unsigned char)
+000028ac  w    F .text.itcm	00000054 File::read()
+0001e460 g     F .text.itcm	0000006c tcp_process_refused_data
+00016724 g     F .text.itcm	00000070 qindesign::network::EthernetClass::end()
+20005ebc g     O .data	0000000c memp_UDP_PCB
+0002c18c g     F .text.itcm	000000b4 flexpwmWrite
+00004d14 g     F .text.itcm	0000006e AsyncClient::onDisconnect(std::function<void (void*, AsyncClient*)>, void*)
+0000269c  w    F .text.itcm	00000048 File::write(unsigned char)
+000079a0  w    F .text.itcm	000001c0 Autosteering::update()
+0001b1bc g     F .text.itcm	00000050 igmp_tmr
+0002b04c g     F .text.itcm	0000001c operator+(StringSumHelper const&, char const*)
+00038bf0 g     F .text.itcm	00000054 strcasecmp
+00011370 g     F .text.itcm	0000010c LittleFS_SPIFlash::read(unsigned long, unsigned long, void*, unsigned long)
+00016b80 g     F .text.itcm	00000010 netif_mdns_data
+00017164 g     F .text.itcm	000000a8 mdns_build_dnssd_domain
+2000b0c4  w    O .bss	00000014 DefaultHeaders::Instance()::instance
+000228e8 g     F .text.itcm	00000018 qnethernet_stdio_flush
+2000c194 g     O .bss	00000010 extmem_smalloc_pool
+20038000 g       .text.csf	00000000 _estack
+0002d7c0 g     F .text.itcm	00000070 usb_serial_flush_input
+0003f17c g     F .text.itcm	00000024 _isatty_r
+00019c30 g     F .text.itcm	00000074 dhcp_set_struct
+2000378c  w    O .data	0000000c vtable for SensorInternalReader
+00001a44  w    F .text.itcm	00000020 StaticInit<qindesign::network::EthernetClass>::~StaticInit()
+0002f9a0 g     F .text.itcm	00000004 std::type_info::__is_pointer_p() const
+00022e7c g     F .text.itcm	0000000c lpi2c3_isr()
+0002f084 g     F .text.itcm	00000002 std::bad_exception::~bad_exception()
+0001bf9c g     F .text.itcm	0000003c mem_malloc
+00023910 g     F .text.itcm	00000014 flexcan_isr_can1()
+0001037c  w    F .text.itcm	00000350 Autosteering::begin(JsonDB*, AsyncUDP*, bool, bool)
+000167bc g     F .text.itcm	00000024 qindesign::network::EthernetClass::localIP() const
+000217e0 g     F .text.itcm	00000158 udp_sendto_if_src
+
+
